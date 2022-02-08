@@ -2,14 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+
 }
 body { 
-    background-color: black;
+    background-color:#494646;
+    color: #bdae82;
 }
 .header{ 
     width: 100%;
     max-width: 1920px;
-    padding: 3px 20px;
+    padding: 0 130px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -25,7 +29,36 @@ body {
 .logo-im:hover{
     filter: sepia(0.6) brightness(10) contrast(2.5);
 }
-.list { 
+
+.nav-head ul { 
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.nav-head li { 
+    list-style-type: none;
+    cursor: pointer;
+    height: 100%;
+    padding: 18px;
+    background-color: transparent;
+    transition:  all ease 0.4s;
+}
+.nav-head li:hover{ 
+    color: #fff;
+    background-color: rgba(241, 241, 241, 0.1);
+    transition: all ease 0.4s;
+
+}
+.list-head.active{ 
+    box-shadow: inset 2px 2px 2px 2px rgba(189, 174, 130, 0.5), inset -2px -2px 2px 2px rgba(189, 174, 130, 0.5);
+    transition: all ease 0.4s;
+
+}
+
+
+
+
+/* .list { 
     padding: 20px;
     list-style: none;
     color: #fff;
@@ -47,7 +80,14 @@ body {
 }
 .list-head:last-child{ 
     padding-right: 0;
-}
+} */
+
+
+
+
+
+
+
 
 .main{ 
     width: 100%;
@@ -60,8 +100,7 @@ body {
     height: 670px;
     height: 650px;
 }
-.main-wrap{ 
-}
+
 .player-img{ 
     width: 100%;
     max-width: 1920px;
@@ -102,7 +141,7 @@ button{
 
 .footer
 { 
- padding: 2px 40px 0 20px;
+ padding: 2px 140px 0 100px;
 
 }
 .first-foot{ 
@@ -116,36 +155,42 @@ button{
 .logo-foot{ 
     font-size: 16pt;
     padding-right: 20px;
-    padding-top: 15px;
+    padding-top: 15px;    
+    color:#bdae82;
+
 
 }
 .year-foot{ 
     font-size: 16pt;
     padding-right: 20px;
     padding-top: 15px;
+    color:#bdae82;
+
 }
 .git-hub{ 
     font-size: 16pt;
     text-decoration: none;
-    color:#fff;
+    color:#bdae82;
     padding-top: 15px;
 
 }
 .git-hub:hover{ 
-    color: #bdae82;
+    color: #fff;
     transition: 1s;
 }
 .rsschool{ 
     width: 140px;
     padding-top: 4px;
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+
 
 }
 
 .link-rs:hover{ 
-    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
-    contrast(87%);
+    filter: brightness(0) invert(1);
     cursor: pointer;
-    transition: 1s;
+    transition:all ease 0.4s;
 
 }
 .foot-m{ 
