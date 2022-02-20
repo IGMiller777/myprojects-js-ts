@@ -8,5 +8,7 @@ https://igmiller777.github.io/myprojects/ecosounds/ \
 -Random Cats\
 https://igmiller777.github.io/myprojects/randomkattie/ \
 -Chuck Norris\
-https://igmiller777.github.io/myprojects/chuck/ 
+https://igmiller777.github.io/myprojects/chuck/ \
+-Game Tic Tac\
+https://igmiller777.github.io/myprojects/tic-tac/
 
