@@ -7,6 +7,6 @@ https://igmiller777.github.io/myprojects/movieapp/ \
 https://igmiller777.github.io/myprojects/ecosounds/ \
 -Random Cats\
 https://igmiller777.github.io/myprojects/randomkattie/ \ 
--Chuck Norris \
+-Chuck Norris\
 https://igmiller777.github.io/myprojects/chuck/ \
 
