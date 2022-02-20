@@ -9,6 +9,6 @@ https://igmiller777.github.io/myprojects/ecosounds/ \
 https://igmiller777.github.io/myprojects/randomkattie/ \
 -Chuck Norris\
 https://igmiller777.github.io/myprojects/chuck/ \
--Game Tic Tac\
+-Game Tic-Tac\
 https://igmiller777.github.io/myprojects/tic-tac/
 
