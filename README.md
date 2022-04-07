@@ -2,7 +2,7 @@
 -Portfolio\
 https://igmiller777.github.io/myprojects/portfolio/ \
 -Shelter\
-https://igmiller777.github.io/myprojects/shelter/ \
+https://igmiller777.github.io/myprojects/shelter/pages/main/ \
 -MovieApp\
 https://igmiller777.github.io/myprojects/movieapp/ \
 -Birds Sound\
