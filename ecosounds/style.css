@@ -1,0 +1,198 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+
+}
+body { 
+    background-color:#494646;
+    color: #bdae82;
+}
+.header{ 
+    width: 100%;
+    max-width: 1920px;
+    padding: 0 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-im{ 
+    width: 50px;
+    height: 50px;
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+    cursor: pointer;
+}
+.logo-im:hover{
+    filter: sepia(0.6) brightness(10) contrast(2.5);
+}
+
+.nav-head ul { 
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.nav-head li { 
+    list-style-type: none;
+    cursor: pointer;
+    height: 100%;
+    padding: 18px;
+    background-color: transparent;
+    transition:  all ease 0.4s;
+}
+.nav-head li:hover{ 
+    color: #fff;
+    background-color: rgba(241, 241, 241, 0.1);
+    transition: all ease 0.4s;
+
+}
+.list-head.active{ 
+    box-shadow: inset 2px 2px 2px 2px rgba(189, 174, 130, 0.5), inset -2px -2px 2px 2px rgba(189, 174, 130, 0.5);
+    transition: all ease 0.4s;
+
+}
+
+
+
+
+/* .list { 
+    padding: 20px;
+    list-style: none;
+    color: #fff;
+    display: flex;
+}
+.list-head{ 
+    padding-right: 20px;
+    font-size: 16pt;
+}
+.list-head:hover{ 
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+    cursor: pointer;
+    transition: 1s;
+}
+.list-head.active{
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+}
+.list-head:last-child{ 
+    padding-right: 0;
+} */
+
+
+
+
+
+
+
+
+.main{ 
+    width: 100%;
+    max-width: 1920px;
+    height: 670px;
+}
+.player-img{ 
+    width: 100%;
+    max-width: 1920px;
+    height: 670px;
+    height: 650px;
+}
+
+.player-img{ 
+    width: 100%;
+    max-width: 1920px;
+    height: 660px;
+    position: relative;
+}
+button{ 
+    background: none;
+    border: 0;
+    cursor: pointer;
+    margin-top: 260px;
+}
+
+.button-main{ 
+    width: 140px;
+    height: 140px;
+    background: url(./assets/svg/play.svg) no-repeat 50% 50%;
+    background-size: cover;
+    position: absolute;
+    border-radius: 50%;
+
+    left: 45%;
+    /* bottom: 50%; */
+}
+.button-main:hover{ 
+    opacity: 0.7;
+    box-shadow: 0px 0px 50px white;
+}
+.button-main.pause{ 
+    background: url(./assets/svg/pause.svg) no-repeat 50% 50%;
+    background-size: cover;
+    transition: 1s;
+    width: 140px;
+    height: 140px;
+
+}
+
+
+.footer
+{ 
+ padding: 2px 140px 0 100px;
+
+}
+.first-foot{ 
+    
+    display: flex;
+    color: #fff;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.logo-foot{ 
+    font-size: 16pt;
+    padding-right: 20px;
+    padding-top: 15px;    
+    color:#bdae82;
+
+
+}
+.year-foot{ 
+    font-size: 16pt;
+    padding-right: 20px;
+    padding-top: 15px;
+    color:#bdae82;
+
+}
+.git-hub{ 
+    font-size: 16pt;
+    text-decoration: none;
+    color:#bdae82;
+    padding-top: 15px;
+
+}
+.git-hub:hover{ 
+    color: #fff;
+    transition: 1s;
+}
+.rsschool{ 
+    width: 140px;
+    padding-top: 4px;
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+
+
+}
+
+.link-rs:hover{ 
+    filter: brightness(0) invert(1);
+    cursor: pointer;
+    transition:all ease 0.4s;
+
+}
+.foot-m{ 
+    display: flex;
+}
