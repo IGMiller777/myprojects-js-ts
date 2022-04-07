@@ -1,0 +1,636 @@
+
+@media  screen and (max-width: 1050px) {
+    
+    .about-figure{ 
+        padding: 0;
+        padding-top: 22px;
+        padding-left: 15%;
+    }
+    .about-article {
+        margin-top: -7px;
+    }
+    .about-shelter {
+        height: 1048px;
+
+
+    }
+    .friends-wrapper{ 
+        max-width: 1050px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+
+}
+@media  screen and (max-width: 950px) {
+    .about-wrapper{ 
+        flex-direction: column-reverse;
+    }
+    .about-main-wrapper{ 
+        padding: 80px 166px 100px;
+    }
+    .about-item{ 
+        width: 430px;
+        padding: 0;
+    }
+
+    .friend-card-rigth{ 
+
+        display: none;
+    }
+    .friends-for-wrap{ 
+        width: 580px;
+    }
+
+
+
+
+    .help{ 
+        height: 779px;
+    }
+    .help-wrapper {
+        /* margin: 80px auto 100px; */
+        padding: 80px 70px 100px;
+    }
+    .icons-1lev {
+        margin-top: -2px;
+        /* margin-left: 2px; */
+        /* margin-left: 20px; */
+        display: grid;
+        grid-gap: 50px 60px;
+        grid-template-columns: repeat(3, 170px);
+        grid-template-rows: repeat(2, 117px);
+    }
+    .icons-1lev > *{ 
+        margin: 0;
+        padding: 0;
+    }
+    .icon-fig:nth-child(6){ 
+        margin-left: 0;
+    }
+    .icon1{ 
+            margin-left: -2px;
+    }
+    .icon2{ 
+            padding-right: 5px;        
+    }
+    .icon7{ 
+        padding-top: 5px;
+    }
+    .icon8{ 
+        padding-right: 5px;
+    }
+    .icon9{ 
+        padding-top: 2px;
+        padding-right: 2px;
+    }
+
+
+
+    .donat-sect {
+        height: 783px;
+    }
+    .donat-wrapper{ 
+        max-width: 505px;
+        height: 603px;
+    }
+    .donat {
+        flex-direction: column-reverse;
+    }
+
+
+    .foot-info{ 
+        margin-left: 32px;
+        margin-bottom: 53px;
+    }
+
+
+
+
+    .footer {
+        height: 639px;
+    }
+
+    .foot-main {
+        padding-top: 0;
+        margin: 0 auto;
+        max-width: 708px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    .for-visit { 
+        padding-right: 7px;
+        grid-column: span 2;
+        justify-self: center;
+        align-self: start;
+        padding-top: 28px;
+
+
+
+
+    }
+    .for-suggestion{
+        padding-top: 10px;
+        grid-column: span 2;
+        justify-self: center;
+        align-self: start;
+        padding-top: 30px;
+
+
+
+
+    }
+    .dog-wra{
+        margin-top: 25px;
+        /* padding-top: 25px; */
+        grid-column: span 4;
+        justify-self: center;
+    }
+}
+
+
+
+
+
+@media  screen and (max-width: 768px) {
+    .header-wrap{ 
+        flex-wrap: nowrap;
+        padding: 30px 30px 60px 30px;
+    }
+
+
+    .start-page{ 
+        height: 1165px;
+        flex-direction: column;
+        justify-items: center;
+    }
+    .start-wrap{ 
+        margin: 150px auto;
+        margin-bottom: 0;
+    }
+    .start-button{ 
+        margin-left: 27.5%;
+    }
+    .fig-dog-wrapper{ 
+        max-width: 569px;
+        height: 593px;
+
+    }
+    .fig-dog{ 
+        max-width: 569px;
+        height: 0;
+        margin-top: 90px;
+        margin-left: 16%;
+    }
+   
+    
+
+    .about-shelter {
+        max-height: 1048px;
+
+
+    }
+    .friends-wrapper{ 
+        padding-right: 29px;
+        padding-left: 29px;
+    }
+    .arrow{ 
+        padding-bottom: 3px;
+    }
+        /*ABOUT SHELTER*/ 
+
+}
+
+@media  screen and (max-width: 720px) {
+    .friends-wrapper{ 
+        padding-right: 10px;
+        padding-left: 10px;
+
+    }
+
+
+
+    .help-wrapper {
+        /* margin: 80px auto 100px; */
+        padding: 80px 10px 100px;
+    }
+    .icons-1lev {
+        grid-gap: 50px 10px;
+
+
+    }
+    .donat {
+        padding: 0 20px;
+    }
+
+
+}
+
+@media  screen and (max-width: 650px) {
+  
+    .about-main-wrapper{ 
+        padding: 80px 40px 100px;
+
+    }
+    .friend-card-center{ 
+        display: none;
+    }
+    .friends-cards{ 
+        max-width: 500px;
+
+        margin: 0 auto;
+    }
+    .friends-for-wrap{ 
+        width: 270px;
+        justify-content: center;
+    }
+
+
+    .title-suggestion {
+        font-size: 25px;
+    }
+    .title-visit {
+        font-size: 25px;
+    }
+    .email-suggest {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 115%;
+    }
+
+    .footer {
+        height: 809px;
+    }
+
+    .last-dog{ 
+        width: 260px;
+        height: 269px;
+    }    
+    .foot-main {
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-end
+    }
+    .for-suggestion{
+        align-self: center;
+    }
+    .for-visit{
+        align-self: center;
+        padding-bottom: 40px;
+    }
+
+
+
+
+
+
+}
+@media  screen and (max-width: 550px) {
+    .fig-dog{ 
+    }
+    /*ABOUT SHELTER*/ 
+    .about-main-wrapper{ 
+        padding: 60px 20px 100px;
+
+    }
+    .issue-article{ 
+        font-size: 25px;
+    }
+
+    .help{ 
+        height: 745px;
+    }
+
+    .help-wrapper {
+        padding: 42px 10px;
+        max-width: 290px;
+
+    }
+
+    .help-tittle{
+        font-size: 25px;
+        padding-bottom: 42px;
+    }
+    .help-link{ 
+        font-size: 15px;
+        line-height: 110%;
+    }
+    .icons-1lev {
+
+        grid-template-columns: repeat(2,130px);
+        grid-template-rows: repeat (5,85px);
+        grid-gap: 30px 30px;
+    }
+
+  .icons-1lev > *{ 
+    margin: 0;
+    padding: 0;
+}
+    .icon-ph-help{
+        width: 50px; 
+
+    }
+
+    .icon-caption{ 
+        margin-top: 14px;
+    }
+
+    .icons-1lev {
+        grid-template-rows: none;
+        grid-template-rows: repeat (5,80px);
+    }
+
+
+
+    
+
+}
+
+
+
+@media  screen and (max-width: 450px) {
+    .start-page{ 
+        height: 1000px;
+    }
+    .start-button{ 
+        margin-left: 15%;
+    }
+
+    .header-nav{ 
+        display: none;
+    }
+    .header-wrap{ 
+        padding-top: 30px;
+        padding-left: 10px;
+    }
+    .need-house{ 
+        font-size: 25px;
+        text-align: center;
+        letter-spacing: 0.06em;
+    }
+    .start-issue{ 
+        margin:  0 auto;
+        max-width: 300px;
+        font-size: 15px;
+        line-height: 160%;
+        text-align: center;
+    }
+    .fig-fog-wrapper{ 
+        margin-top: 0;
+
+
+    }
+    .fig-dog{ 
+        margin-left: 0;
+    }
+
+        /*ABOUT SHELTER*/ 
+        .about-shelter{ 
+            height: 974px;
+        }
+        .about-main-wrapper{ 
+            padding: 40px 10px 60px;
+            font-size: 15px;
+    
+        }
+        .about-article{ 
+            font-size: 25px;
+            line-height: 130%;
+            text-align: center;
+            letter-spacing: 0.06em;
+            width: 300px;
+            margin:  0 auto;
+        }
+        .about-item{ 
+            width: 320px;
+
+        }
+        .about-text{ 
+            max-width: 270px;
+            margin:  0 auto;
+
+            font-size: 15px;
+            line-height: 160%;
+            text-align: justify;
+        }
+
+
+
+
+        .about-figure{ 
+            padding-top: 80px;
+            padding-left: 0;
+            width: 260px;
+            height: 356px;
+        }
+        .friends-cards{ 
+            justify-content: center;
+        }
+        .our-friends{ 
+            height: 791px;
+        }
+        .for-hide{ 
+            display: none;
+        }
+        .buttons-for-mob{ 
+            width: 270px;
+            display: flex;
+            margin: 17px auto;
+        }
+        .issue-article{ 
+            width: 300px;
+            padding-bottom: 40px;
+        }
+        .friends-issue{ 
+            padding-top: 43px;
+        }
+        .button-get{ 
+            margin-top: 45px;
+        }
+
+
+
+        .icon-fig{ 
+            height: 90px;;
+        }
+    
+        .icons-1lev {
+            grid-template-rows: none;
+            grid-template-rows: repeat (5,80px);
+            margin-top: 2px;
+        }
+    
+        .help-tittle {
+            max-width: 225px ;
+        }
+
+
+
+        .title-footer{ 
+            font-size: 25px;
+        }
+        .foot-info{ 
+        max-width: 300px;
+        margin-left: 0;
+        padding-left: 0;
+        margin-bottom: 35px;
+        }
+        
+
+        .credit-main{ 
+            width: 281px;
+            margin-left: 8px;
+            margin-top: 2px;
+        }
+
+        .numbers-foot {
+            font-size: 15px;
+            margin-top: 3px;
+      
+        }
+        
+
+        .donat-sect {
+            height: 562px;
+        }
+
+        .title-footer{ 
+            width: 220px;
+            text-align: center;
+            padding-top: 44px;
+            padding-left: 39px;
+        }
+        .issue1-foot {
+            width: 310px;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 160%;
+            letter-spacing: 0;
+            margin-top: -2px;
+            padding-left: 12px;
+
+        }
+
+        .issu-textx { 
+            padding-right: 10px;
+            text-align: justify;
+            padding-left: 6px;
+        }
+        .fig-foot{
+            max-width: 260px;
+            padding-left: 20px;
+        }
+        .title-suggestion{
+            text-align: center;
+        }
+        .email-suggest{
+            padding-left: 18px;
+        }
+        .phone-suggest{
+            padding-left: 22px;
+        }
+        .title-visit{
+            width: 270px;
+            text-align: center;
+            padding-left: 23px;
+            margin-top: -2px;
+        }
+        .address-1{
+            padding-left: 8px;
+            padding-top: 3px;
+        }
+        .address-2{
+            padding-left: 8px;
+            padding-top: 7px;
+
+        }
+
+        .dog-wra{
+            margin-top: 0;
+        }
+    
+        .last-dog{
+            margin-top: 0;
+        }
+    }
+
+
+
+@media  screen and (max-width: 330px) {
+    .start-page{ 
+        height: 823px;
+    }
+
+    .fig-fog-wrapper{ 
+        margin-top: 70px;
+
+
+    }
+
+
+    .fig-dog{ 
+        height: 210px;
+        margin-top: 0;
+    }
+    .puppy-img{ 
+        height: 271px;
+    }
+
+
+    /*ABOUT SHELTER*/ 
+
+
+    .about-main-wrapper{ 
+        max-width: 320px;
+
+    }
+    .about-item{ 
+        width: 300px;
+
+    }
+
+
+    .about-figure{ 
+        padding-top: 107px;
+        margin-left: 21px;
+    }
+
+   
+
+    .icon3{ 
+        margin-top: -5px;
+    }
+    .icon4{ 
+        margin-top: -5px;
+    }
+    .icon5{ 
+        margin-top: -3px;
+    }
+    .icon6{ 
+        margin-top: -3px;
+    }
+  
+  
+    .icon9{ 
+        margin-top: -5px;
+    }
+
+
+
+    .donat{ 
+        padding: 0 10px;
+    }
+    .donat-wrapper{ 
+        height: 542px;
+    }
+
+    .donat-sect {
+        height: 542px;
+    }
+
+
+
+}
