@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./media.css">
+    <link rel="icon" type="image/png" href="./assets/image/iconfor.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Merriweather:ital,wght@0,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Merriweather:ital,wght@0,900;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper-head">
+        <div class="one-ex"></div>
+        <div class="header_img"></div>
+        <nav class="header_nav">
+          <ul class="header__list">
+            <li class="header_item">
+              <a href="#skills" class="header_link" data-i18="skills">Skills</a>
+            </li>
+            <li class="header_item">
+              <a href="#portfolio" class="header_link" data-i18="portfolio"> Portfolio </a>
+            </li>
+            <li class="header_item">
+              <a href="#video" class="header_link" data-i18="video"> Video </a>
+            </li>
+            <li class="header_item">
+              <a href="#price" class="header_link" data-i18="price"> Price </a>
+            </li>
+            <li class="header_item">
+              <a href="#cont" class="header_link" data-i18="contacts"> Contacts </a>
+            </li>
+          </ul>
+          <div class="prod_checbox">
+            <div class="radio-toolbar">
+              <input
+                type="radio"
+                id="radio1"
+                name="radios"
+                value="enlang"
+                checked
+              />
+              <label class="enlan" for="radio1"> en</label>
+              <p class="slash">/</p>
+
+              <input type="radio" id="radio2" name="radios" value="ruslang" />
+              <label class="rulan" for="radio2">ru</label>
+            </div>
+            <div class="theme-for"> 
+               </div>
+            <div class="menu-btn ">
+              <span class="menu-color1"></span>
+              <span class="menu-color"></span>
+              <span class="menu-color"></span>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="main_hero ">
+          <h1 class="hero_title" data-i18="hero-title">Alexa Rise</h1>
+          <p class="hero_text" data-i18="hero-text">
+            Save sincere emotions, romantic feelings and happy moments of life
+            together with professional photographer Alexa Rise
+          </p>
+          <button type="submit" class="hero_button" data-i18="hire">Hire me</button>
+        </div>
+      </section>
+
+      <section class="skills">
+        <div class="skill_title skill_bar">
+          <hr class="skill_title-line" />
+          <h2><a href="#" id="skills" class="skill_t" data-i18="skills">Skills </a></h2>
+          <hr class="skill_title-line" />
+        </div>
+
+        <div class="skills-cards">
+          <div class="skills-card1">
+            <img
+              src="./assets/image/skills1.svg"
+              alt="camera"
+              class="card_thumb"
+            />
+            <h3 class="icon_text" data-i18="skill-title-1">Digital photography</h3>
+            <p class="skills_text" data-i18="skill-text-1">
+              High-quality photos in the studio and on the nature
+            </p>
+          </div>
+          <div class="skills-card2">
+            <img
+                  src="./assets/image/skills2.svg"
+                  alt="video"
+                  class="card_thumb"
+                />
+                <h3 class="icon_text" data-i18="skill-title-2">Video shooting</h3>
+                <p class="skills_text"  data-i18="skill-text-2">
+                  Capture your moments so that they always stay with you
+                </p>
+          </div>
+          <div class="skills-card3">
+            <img
+            src="./assets/image/skills3.svg"
+            alt="retouch"
+            class="card_thumb"
+          />
+          <h3 class="icon_text" data-i18="skill-title-3">Retouch</h3>
+          <p class="skills_text"  data-i18="skill-text-3">
+            I strive to make photography surpass reality
+          </p>
+
+          </div>
+          <div class="skills-card4">
+            <img
+                  src="./assets/image/skills4.svg"
+                  alt="audio"
+                  class="card_thumb"
+                />
+              <h2 class="icon_text" data-i18="skill-title-4">Audio</h2>
+              <p class="skills_text"  data-i18="skill-text-4">
+                Professional sounds recording for video, advertising, portfolio
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section class="portfolio">
+            <div class="port_title-main port_bar">
+              <hr class="port_title-line" />
+              <h2><a href="#" id="portfolio" class="port_t"  data-i18="portfolio"> Portfolio</a></h2>
+              <hr class="port_title-line" />
+            </div>
+
+
+         
+          <div class="port_items portfolio-btns">
+            <button type="submit" class="portfolio-btn" data-season="winter"  data-i18="winter">Winter</button>
+            <button type="submit" class="portfolio-btn" data-season="spring" data-i18="spring">Spring</button>
+            <button type="submit" class="portfolio-btn" data-season="summer" data-i18="summer">Summer</button>
+            <button type="submit" class="portfolio-btn" data-season="autumn" data-i18="autumn">Autumn</button>
+          </div>
+
+          <div class="port_cards">
+            <div class="port_card_top">
+            <div><img src="./assets/image/seasons/autumn/1.jpg" alt="card1" class="port_card portfolio-image" /></div>
+            <div><img src="./assets/image/seasons/autumn/2.jpg" alt="card2" class="port_card portfolio-image" /></div>
+            <div><img src="./assets/image/seasons/autumn/3.jpg" alt="card3" class="port_card portfolio-image" /></div>
+            </div>
+          </div>
+          <div class="port_cards">
+            <div class="port_card_bot">
+            <div><img src="./assets/image/seasons/autumn/4.jpg" alt="card4" class="port_card portfolio-image" /></div>
+            <div><img src="./assets/image/seasons/autumn/5.jpg" alt="card5" class="port_card portfolio-image" /></div>
+            <div><img src="./assets/image/seasons/autumn/6.jpg" alt="card6" class="port_card portfolio-image" /></div>
+          </div>
+      </div>
+        </div>
+      </section>
+      <section class="video">
+          <div class="video_main-title video_bar">
+            <hr class="video_title-line" />
+            <h2><a href="#" class="video_title" id="video"  data-i18="video">Video </a></h2>
+            <hr class="video_title-line" />
+          </div>
+
+          <div class="video_main">
+            <img
+              src="./assets/image/video-player.jpg"
+              alt="video"
+              class="video_port1"
+            />
+            <button class="video-button">
+              <img src="./assets/image/play_hover.svg" alt="player" class="video_port-little" />
+            </button>
+          </div>
+      </section>
+      <section class="price">
+
+          
+          <div class="price_main-title price_bar">
+            <hr class="price_title-line" />
+            <h2><a href="#" class="price_title" id="price"  data-i18="price">Price </a></h2>
+            <hr class="price_title-line" />
+          </div>
+
+          <div class="price_cards">
+            <div class="price_card-left">
+              <h3 class="price-card_title price-one">Standart</h3>
+              <p class="price-card_number">500 $</p>
+              <p class="price-card_text card-text-1" data-i18="price-description-1-span-1">
+                One location
+                120 photos in color
+                12 photos in retouch
+                Readiness 2-3 weeks
+                Make up, visage              </p>
+              <button type="submit" class="price_button"  data-i18="order">Order shooting</button>
+            </div>
+
+            <div class="price_card-center">
+              <h3 class="price-card_title price-two">Premium</h3>
+              <p class="price-card_number">700 $</p>
+              <p class="price-card_text card-text-2" data-i18="price-description-2-span-1">
+                One or two locations
+                200 photos in color
+                20 photos in retouch
+                Readiness 1-2 weeks
+                Make up, visage              </p>
+              <button type="submit" class="price_button"  data-i18="order">Order shooting</button>
+            </div>
+
+            <div class="price_card-right">
+              <h3 class="price-card_title price-three">Gold</h3>
+              <p class="price-card_number">1000 $</p>
+              <p class="price-card_text card-text-3" data-i18="price-description-3-span-1">
+            <span class="price-description-3-span-1">Three locations or more</span>
+            <span class="price-description-3-span-2">300 photos in color</span>
+            <span class="price-description-3-span-3">50 photos in retouch</span>
+            <span class="price-description-3-span-4">Readiness 1 week</span>
+            <span class="price-description-3-span-5">Make up, visage, hairstyle</span>
+              </p>
+              <button type="submit" class="price_button" data-i18="order">Order shooting</button>
+            </div>
+        </div>
+      </section>
+      <section class="contacts">
+          <div class="contact_main">
+            <h2 class="cont_pad">
+              <a href="#" class="contacts_title" id="cont"  data-i18="contact-me"> Contact me</a>
+            </h2>
+            <form class="contact-form">
+              <fieldset class="contact-form_wrap">
+                <div class="contacts-form_info">
+                  <input
+                    type="email"
+                    name="user-email"
+                    class="contacts_email cont_style"
+                    placeholder="E-mail"
+                    data-i18="placeholder-email"
+                  />
+                  <input
+                    type="tel"
+                    name="user-phone"
+                    class="contacts_phone cont_style"
+                    placeholder=" Phone"
+                    data-i18="placeholder-phone"
+
+                  />
+                  <textarea
+                    name="message"
+                    cols="30"
+                    rows="10"
+                    class="text_con"
+                    placeholder="Message"
+                    data-i18="placeholder-message"
+
+                  ></textarea>
+                </div>
+              </fieldset>
+              <button type="submit" class="contact_button"  data-i18="send-message">Send message</button>
+            </form>
+          </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer_wrapper">
+        <div class="section1">
+          © &nbsp;&nbsp; 2022 &nbsp;
+          <a
+            href="https://github.com/IGMiller777"
+            class="one_link"
+            target="_blank"
+            >github</a
+          >
+        </div>
+        <div class="section2">
+          <a href="https://rs.school/js-stage0/" class="twolink" target="_blank"
+            >Rolling Scopes School
+          </a>
+        </div>
+        <div class="section3">
+          <ul class="ul_foot">
+            <li>
+              <a href="#3" class="three_links">
+                <div class="foot_link1"></div
+              ></a>
+            </li>
+            <li>
+              <a href="#3" class="three_links">
+                <div class="foot_link2"></div
+              ></a>
+            </li>
+            <li>
+              <a href="#3" class="three_links">
+                <div class="foot_link3"></div
+              ></a>
+            </li>
+            <li>
+              <a href="#3" class="three_links">
+                <div class="foot_link4"></div
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
