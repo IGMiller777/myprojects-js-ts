@@ -1,7 +1,15 @@
 
 @media  screen and (max-width: 1050px) {
     
+<<<<<<< HEAD
   
+=======
+    .about-figure{ 
+        padding: 0;
+        padding-top: 22px;
+        padding-left: 15%;
+    }
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
     .about-article {
         margin-top: -7px;
     }
@@ -15,6 +23,7 @@
         padding-right: 20px;
         padding-left: 20px;
     }
+<<<<<<< HEAD
     .start-wrap{ 
         padding-left: 20px;
     }
@@ -27,10 +36,13 @@
         width: 70%;
     }
   
+=======
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
 
 
 }
 @media  screen and (max-width: 950px) {
+<<<<<<< HEAD
 /*   
     .about-main-wrapper{ 
         padding: 80px 166px 100px;
@@ -49,12 +61,28 @@
     }
 
     .friend-card-rigth{ 
+=======
+    .about-wrapper{ 
+        flex-direction: column-reverse;
+    }
+    .about-main-wrapper{ 
+        padding: 80px 166px 100px;
+    }
+    .about-item{ 
+        width: 430px;
+        padding: 0;
+    }
+
+    .friend-card-rigth{ 
+
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
         display: none;
     }
     .friends-for-wrap{ 
         width: 580px;
     }
 
+<<<<<<< HEAD
       .start-fix{
         flex-direction: column;
         align-items: center;
@@ -88,6 +116,10 @@
         margin-top: 90px;
         /* margin-left: 16%; */
     }
+=======
+
+
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
 
     .help{ 
         height: 779px;
@@ -193,9 +225,12 @@
         grid-column: span 4;
         justify-self: center;
     }
+<<<<<<< HEAD
     .last-dog{ 
         margin-top: -17px;
     }
+=======
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
 }
 
 
@@ -209,7 +244,15 @@
     }
 
 
+<<<<<<< HEAD
   
+=======
+    .start-page{ 
+        height: 1165px;
+        flex-direction: column;
+        justify-items: center;
+    }
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
     .start-wrap{ 
         margin: 150px auto;
         margin-bottom: 0;
@@ -222,7 +265,16 @@
         height: 593px;
 
     }
+<<<<<<< HEAD
     
+=======
+    .fig-dog{ 
+        max-width: 569px;
+        height: 0;
+        margin-top: 90px;
+        margin-left: 16%;
+    }
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
    
     
 
@@ -238,6 +290,7 @@
     .arrow{ 
         padding-bottom: 3px;
     }
+<<<<<<< HEAD
     .fig-dog{ 
         margin-left: 0;
     }
@@ -245,6 +298,8 @@
         max-width: 510px;
         height: 593px;
     }
+=======
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
         /*ABOUT SHELTER*/ 
 
 }
@@ -270,10 +325,13 @@
     .donat {
         padding: 0 20px;
     }
+<<<<<<< HEAD
   
     .title-footer{ 
         padding-top: 40px;
     }
+=======
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
 
 
 }
@@ -331,6 +389,7 @@
         padding-bottom: 40px;
     }
 
+<<<<<<< HEAD
     .about-figure{
         padding-left: 100px;
     }
@@ -339,6 +398,10 @@
         max-width: 350px;
         text-align: justify;
     }
+=======
+
+
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
 
 
 
@@ -398,6 +461,7 @@
         grid-template-rows: repeat (5,80px);
     }
 
+<<<<<<< HEAD
     .about-item{
         padding-left: 60px;
     }
@@ -413,25 +477,45 @@
         width: 330px;
         height: 381px;
     }
+=======
+
+
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
     
 
 }
 
 
 
+<<<<<<< HEAD
 @media  screen and (max-width: 480px) {
   
+=======
+@media  screen and (max-width: 450px) {
+    .start-page{ 
+        height: 1000px;
+    }
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
     .start-button{ 
         margin-left: 15%;
     }
 
+<<<<<<< HEAD
   
+=======
+    .header-nav{ 
+        display: none;
+    }
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
     .header-wrap{ 
         padding-top: 30px;
         padding-left: 10px;
     }
+<<<<<<< HEAD
 
     
+=======
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
     .need-house{ 
         font-size: 25px;
         text-align: center;
@@ -439,28 +523,46 @@
     }
     .start-issue{ 
         margin:  0 auto;
+<<<<<<< HEAD
         /* width: 300px; */
+=======
+        max-width: 300px;
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
         font-size: 15px;
         line-height: 160%;
         text-align: center;
     }
+<<<<<<< HEAD
     .start-wrap{ 
         max-width: none;
         width: 300px;
         padding-left: 0;
     }
+=======
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
     .fig-fog-wrapper{ 
         margin-top: 0;
 
 
     }
+<<<<<<< HEAD
    
+=======
+    .fig-dog{ 
+        margin-left: 0;
+    }
+
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
         /*ABOUT SHELTER*/ 
         .about-shelter{ 
             height: 974px;
         }
         .about-main-wrapper{ 
+<<<<<<< HEAD
             padding: 28px 10px 60px;
+=======
+            padding: 40px 10px 60px;
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
             font-size: 15px;
     
         }
@@ -473,12 +575,18 @@
             margin:  0 auto;
         }
         .about-item{ 
+<<<<<<< HEAD
             width: 300px;
             margin: 0 auto;
             padding-left: 0;
 
         }
     
+=======
+            width: 320px;
+
+        }
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
         .about-text{ 
             max-width: 270px;
             margin:  0 auto;
@@ -496,7 +604,10 @@
             padding-left: 0;
             width: 260px;
             height: 356px;
+<<<<<<< HEAD
             margin: 0 auto;
+=======
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
         }
         .friends-cards{ 
             justify-content: center;
@@ -569,19 +680,28 @@
             height: 562px;
         }
 
+<<<<<<< HEAD
         .donat{
             max-width: 300px;
             margin: 0 auto;
         }
+=======
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
         .title-footer{ 
             width: 220px;
             text-align: center;
             padding-top: 44px;
             padding-left: 39px;
+<<<<<<< HEAD
             padding-right: 0;
         }
         .issue1-foot {
             /* width: 310px; */
+=======
+        }
+        .issue1-foot {
+            width: 310px;
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
             font-weight: 400;
             font-size: 15px;
             line-height: 160%;
@@ -600,11 +720,14 @@
             max-width: 260px;
             padding-left: 20px;
         }
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
         .title-suggestion{
             text-align: center;
         }
@@ -637,6 +760,7 @@
         .last-dog{
             margin-top: 0;
         }
+<<<<<<< HEAD
 
 
         .cozy-h{
@@ -715,10 +839,13 @@
     }
     .menu-btn span:nth-of-type(3) {
         top: calc(55% + 5px);
+=======
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
     }
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -817,6 +944,9 @@
     .header-wrap{
         padding-left: 10px;
     }
+=======
+@media  screen and (max-width: 330px) {
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
     .start-page{ 
         height: 823px;
     }
@@ -826,6 +956,7 @@
 
 
     }
+<<<<<<< HEAD
     .start-fix{
         padding-right: 0;
         margin-left: 0;
@@ -835,6 +966,15 @@
     }
     .puppy-img{ 
         width: 260px;
+=======
+
+
+    .fig-dog{ 
+        height: 210px;
+        margin-top: 0;
+    }
+    .puppy-img{ 
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
         height: 271px;
     }
 
@@ -890,6 +1030,7 @@
         height: 542px;
     }
 
+<<<<<<< HEAD
     .header-ul{ 
     width: 100%;
     margin-left: -55px;
@@ -904,4 +1045,8 @@
     .header-ul.active{ 
         padding-left: 8px;
     }
+=======
+
+
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
 }

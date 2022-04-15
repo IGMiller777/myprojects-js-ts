@@ -13,12 +13,19 @@ ul{
 }
 body { 
     background: black;
+<<<<<<< HEAD
     transition:  .2s linear;
 
 
 }
 .page-width{ 
     /* max-width: 1280px; */
+=======
+
+}
+.page-width{ 
+    max-width: 1280px;
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
     margin: 0 auto;
 }
 .wrapper{ 
@@ -37,6 +44,7 @@ body {
 .header{ 
     grid-row: span 1;
     height: 120px;
+<<<<<<< HEAD
     margin: 0 auto;
     width: 100%;
     top: 0;
@@ -44,18 +52,31 @@ body {
     background: #fff;
     /* border: 2px solid red; */
     position: fixed;
+=======
+    max-width: 1280px;
+
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
 
 }
 
 .wrapper-header{ 
+<<<<<<< HEAD
+=======
+    position: fixed;
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
     display: flex;
     justify-content: space-between;
     align-content: center;
     align-items: center;
     padding: 30px 40px;
     background: #fff;
+<<<<<<< HEAD
     max-width: 1280px;
     margin:  0 auto;
+=======
+    width: 100%;
+    max-width: 1280px;
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
 
 }
 
@@ -82,8 +103,15 @@ body {
     }
 
 .header-item:hover{ 
+<<<<<<< HEAD
     color: #242424;
     transition: all ease 0.4s;
+=======
+    color: #F1CDB3;
+    background-color: rgba(236, 209, 209, 0.3);
+    transition: all ease 0.4s;
+    border-radius: 7px;
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
 }
 
 .header-list{ 
@@ -93,11 +121,18 @@ body {
 .header-list:first-child{ 
     margin-left: 0;
 }
+<<<<<<< HEAD
 .item-active{
     border-bottom: 3px solid #F1CDB3;
 
 }
 
+=======
+.header-list.active{ 
+    border-bottom: 3px solid #F1CDB3;
+
+}
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
 .header-ul{
     display: flex;
 }
@@ -126,7 +161,10 @@ body {
     background-color: #f6f6f6;
     grid-row: span 11.0;
     height: 1342px;
+<<<<<<< HEAD
     margin-top: 120px;
+=======
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
 }
 .wrapper-main{ 
     padding: 80px 40px 50px;
@@ -168,6 +206,7 @@ body {
 }
 .pet-cards > *:hover{ 
     background-color: #fff;
+<<<<<<< HEAD
     cursor: pointer;
     box-shadow: 0px 2px 35px 14px rgba(13, 13, 13, 0.04);
 
@@ -179,6 +218,9 @@ body {
     background-color: #FDDCC4;
     border: #FDDCC4;
     transition: all ease .8s ;
+=======
+
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
 }
 .card{ 
     height: 270px;
@@ -242,13 +284,19 @@ body {
 .prev{ 
     border: 2px solid #cdcdcd;
     margin-right: 16px;
+<<<<<<< HEAD
     background-color: #f6f6f6;
+=======
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
 }
 .next{ 
     border: 2px solid #F1CDB3;
     margin-right: 16px;
+<<<<<<< HEAD
     background-color: #f6f6f6;
 
+=======
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
 
 
 }
@@ -326,7 +374,10 @@ body {
     display: flex;
     justify-content: space-between;
     padding-top: 55px;
+<<<<<<< HEAD
     overflow: hidden;
+=======
+>>>>>>> 56f09698eea81e9081e93232d546ec520014ddbf
     /* padding: 40px 40px 0; */
 }
 .for-suggestion {
