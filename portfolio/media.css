@@ -38,6 +38,9 @@
         line-height: 24px;
         font-family: 'Inter', sans-serif;
     }
+
+
+
     .menu-btn{ 
         position: relative;
         display: block;
@@ -48,20 +51,21 @@
         top: 15px;
         margin-left: 20px;
 }
-
-
-
-
     .menu-color { 
         background-color: #fff;
     }
+
+
+    .menu-color1{ 
+        background-color: #fff;
+    }
+
+    
     .menu-color.light-theme{ 
         background-color: #000;
     }
     
-    .menu-color1{ 
-        background-color: #fff;
-    }
+  
     .menu-color1.light-theme{ 
         background-color: transparent;
     }
@@ -70,10 +74,6 @@
         filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
         contrast(87%);
     }
-
-
-
-
     .menu-btn span {
         width: 50px;
         height: 2px;
@@ -125,16 +125,7 @@
     contrast(87%);
      }
      
-     
-     .header_link.light-theme{ 
-         color: #000000;
-     }
-     .header_link.light-theme:hover{ 
-        transition: all 1s;
-        color: #bdae82;
-     }
-
-      .header__list {
+     .header__list {
         position: fixed;
         z-index: 50;
         top: 0;
@@ -158,6 +149,20 @@
     .header__list.light-theme{ 
         background: #fff;
     }
+
+
+
+
+
+     .header_link.light-theme{ 
+         color: #000000;
+     }
+     .header_link.light-theme:hover{ 
+        transition: all 1s;
+        color: #bdae82;
+     }
+
+      
 
     .header_link.light-theme{ 
         color: #000;
