@@ -3,7 +3,7 @@
 https://igmiller777.github.io/myprojects/portfolio/ \
 -Shelter\
 https://igmiller777.github.io/myprojects/shelter/pages/main/ \
--Netflix clone 
+-Netflix clone \
 https://igmiller777.github.io/myprojects/netflix-clone/ \
 -MovieApp\
 https://igmiller777.github.io/myprojects/movieapp/ \
