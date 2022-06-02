@@ -6,14 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shelter pet`s</title>
     <link rel="stylesheet" href="./style-pets.css" />
+    <link rel="stylesheet" href="./media-pets.css" />
+    <link rel="stylesheet" href="../pets/jspets/style.css" />
   </head>
   <body>
     <div class="page-width">
       <div class="wrapper">
+        <div class="one-ex"></div>
+
         <header class="header">
           <div class="wrapper-header">
             <div class="left-side-cozy">
-              <h2 class="cozy-title">Cozy House</h2>
+              <a href="../../pages/main/index.html">
+                <h2 class="cozy-title">Cozy House</h2>
+              </a>
               <h4 class="cozy-text">Shelter for pets in Boston</h4>
             </div>
             <div class="right-side-nav">
@@ -25,7 +31,9 @@
                     >
                   </li>
                   <li class="header-list active">
-                    <a href="#" class="header-item active">Our pets</a>
+                    <a href="#" class="header-item active">
+                      <p class="item-active">Our pets</p>
+                    </a>
                   </li>
                   <li class="header-list">
                     <a
@@ -38,126 +46,38 @@
                     <a href="#cont-pets" class="header-item">Contacts</a>
                   </li>
                 </ul>
+                <div class="for-burger">
+                  <div class="menu-btn">
+                    <span class="menu-color1"></span>
+                    <span class="menu-color"></span>
+                    <span class="menu-color"></span>
+                  </div>
+                </div>
               </nav>
             </div>
           </div>
         </header>
+
         <main class="main">
-          <div class="wrapper-main">
-            <div class="friends-issue">
-              <h2 class="issue-article">
-                Our friends who <br />
+          <div class="main-container">
+            <div class="main-content">
+              <h3 class="heading">
+                Our friends who<br />
                 are looking for a house
-              </h2>
-            </div>
-            <div class="pet-cards">
-              <div class="card-1">
-                <figure class="card-one">
-                  <img
-                    src="../../assets/images/pets-katrine.svg"
-                    alt="katrine"
-                    class="kattt"
-                  />
-                </figure>
-                <h2 class="caption-one">Katrine</h2>
-                <button class="button-friends" type="button">Learn more</button>
-              </div>
-              <div class="card-2">
-                <figure class="card-one">
-                  <img
-                    src="../../assets/images/pets-jennifer.svg"
-                    alt="jennifer"
-                  />
-                </figure>
-                <h2 class="caption-one">Jennifer</h2>
-                <button class="button-friends" type="button">Learn more</button>
-              </div>
-              <div class="card-3">
-                <figure class="card-one">
-                  <img
-                    src="../../assets/images/pets-woody.svg"
-                    alt="woody"
-                    class="dogs-ph"
-                  />
-                </figure>
-                <h2 class="caption-one">Woody</h2>
-                <button class="button-friends" type="button">Learn more</button>
-              </div>
-              <div class="card-4">
-                <figure class="card-one">
-                  <img
-                    src="../../assets/images/pets-sophia.svg"
-                    alt="woody"
-                    class="dogs-ph"
-                  />
-                </figure>
-                <h2 class="caption-one">Sophia</h2>
-                <button class="button-friends" type="button">Learn more</button>
-              </div>
-              <div class="card-5">
-                <figure class="card-one">
-                  <img
-                    src="../../assets/images/pets-timmy.svg"
-                    alt="woody"
-                    class="dogs-ph"
-                  />
-                </figure>
-                <h2 class="caption-one">Timmy</h2>
-                <button class="button-friends" type="button">Learn more</button>
-              </div>
-              <div class="card-6">
-                <figure class="card-one">
-                  <img
-                    src="../../assets/images/pets-charly.svg"
-                    alt="woody"
-                    class="dogs-ph"
-                  />
-                </figure>
-                <h2 class="caption-one">Charly</h2>
-                <button class="button-friends" type="button">Learn more</button>
-              </div>
-              <div class="card-7">
-                <figure class="card-one">
-                  <img
-                    src="../../assets/images/pets-scarlet.svg"
-                    alt="woody"
-                    class="dogs-ph"
-                  />
-                </figure>
-                <h2 class="caption-one">Scarlett</h2>
-                <button class="button-friends" type="button">Learn more</button>
-              </div>
-              <div class="card-8">
-                <figure class="card-one">
-                  <img
-                    src="../../assets/images/pets-fr.svg"
-                    alt="woody"
-                    class="dogs-ph"
-                  />
-                </figure>
-                <h2 class="caption-one">Freddie</h2>
-                <button class="button-friends" type="button">Learn more</button>
-              </div>
-            </div>
-            <div class="buttons-main">
-              <button class="but prev" disabled>
-                <span class="color-bp"> << </span>
-              </button>
-              <button class="but prev">
-                <span class="color-bp" disabled> < </span>
-              </button>
-              <button class="but current">
-                <span> <p class="number-p">1</p></span>
-              </button>
-              <button class="but next">
-                <span class="color-bn"> > </span>
-              </button>
-              <button class="but next">
-                <span class="color-bn"> >> </span>
-              </button>
+              </h3>
+              <div class="cards-container"></div>
+
+              <nav class="navigation">
+                <button class="nav-btn start"><<</button>
+                <button class="nav-btn prev"><</button>
+                <button class="nav-btn active-button">1</button>
+                <button class="nav-btn next">></button>
+                <button class="nav-btn end">>></button>
+              </nav>
             </div>
           </div>
         </main>
+
         <footer class="footer" id="cont-pets">
           <div class="foot-wrapper">
             <div class="foot-main">
@@ -165,10 +85,7 @@
                 <h2 class="title-suggestion">For questions and suggestions</h2>
                 <span class="email-suggest">
                   <logo class="email">
-                    <a
-                      href="https://www.google.com/intl/ru/gmail/about/"
-                      target="blanck"
-                    >
+                    <a href="mailto:email@shelter.com" target="blank">
                       <img
                         src="../../assets/icons/icon-email.svg"
                         alt="email"
@@ -176,10 +93,7 @@
                       />
                     </a>
                   </logo>
-                  <a
-                    href="https://www.google.com/intl/ru/gmail/about/"
-                    target="blanck"
-                  >
+                  <a href="mailto:email@shelter.com" target="blank">
                     <p class="email-iss">email@shelter.com</p>
                   </a>
                 </span>
@@ -242,17 +156,55 @@
                   </a>
                 </span>
               </div>
-              <figure class="last-dog">
-                <img
-                  src="../../assets/images/footer-puppy.svg"
-                  alt="last-dog"
-                  class="footer-dog-ph"
-                />
-              </figure>
+              <div class="dog-wra">
+                <figure class="last-dog">
+                  <img
+                    src="../../assets/images/footer-puppy.svg"
+                    alt="last-dog"
+                    class="footer-dog-ph"
+                  />
+                </figure>
+              </div>
             </div>
           </div>
         </footer>
+        <div class="info-window window-none">
+          <div class="window">
+            <img src="" class="pet-image" alt="dog" />
+            <div class="modal-content">
+              <h3 class="name-dog"></h3>
+              <h4 class="type"></h4>
+              <p class="description"></p>
+              <ul class="list-pets">
+                <li>
+                  <span> Age: <span class="age li-content"></span> </span>
+                </li>
+                <li>
+                  <span>
+                    Inoculations: <span class="inoculations li-content"></span>
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    Diseases: <span class="diseases li-content"></span>
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    Parasites: <span class="parasites li-content"></span>
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="modal-close">
+            <p>&#10006</p>
+          </div>
+        </div>
       </div>
     </div>
+    <script src="./app-pets.js"></script>
+    <script src="../pets/jspets/utils.js"></script>
+    <script src="../pets/jspets/pets.js"></script>
   </body>
 </html>

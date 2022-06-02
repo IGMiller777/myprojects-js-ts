@@ -10,18 +10,26 @@
   </head>
   <body>
     <div class="width-page">
+      <div class="one-ex"></div>
+
+
       <header class="header">
         <div class="header-wrapper">
+
           <div class="header-wrap">
+
             <div class="cozy-h">
               <h1 class="cozy-h-header">Cozy House</h1>
               <p class="cozy-p-header">Shelter for pets in Boston</p>
             </div>
+
+
             <nav class="header-nav">
               <ul class="header-ul">
                 <li class="header-list">
-                  <a href="#" class="header-item">About the shelter</a>
-                </li>
+                  <a href="#" class="header-item active">
+                    <p class="item-active-p">About the shelter</p>
+                  </li>
                 <li class="header-list">
                   <a href="../../pages/pets/pets.html" class="header-item"
                     >Our pets</a
@@ -34,12 +42,48 @@
                   <a href="#contact" class="header-item">Contacts</a>
                 </li>
               </ul>
+              <div class="for-burger"> 
+                <div class="menu-btn">
+                <span class="menu-color1"></span>
+                <span class="menu-color"></span>
+                <span class="menu-color"></span>
+              </div>
+            </div>
+
             </nav>
           </div>
         </div>
       </header>
+      <section class="popup">
+        <div class="popup-body">
+          <div class="popup-content">
+            <button class="popup-close-btn">&#10006</button>
+            <div class="popup-card-container">
+              <img class="popup-card-img" src="../../assets/images/jennifer.svg" alt="dog">
+            </div>
+            <div class="popup-card">
+              <div class="popup-title">
+                <h2 class="popup-card-title"></h2>
+                <p class="popup-card-subtitle"></p>
+              </div>
+              <p class="popup-card-text"></p>
+              <ul class="popup-card-list">
+                <li class="popup-card-list-item"><b>Age:</b><span class="age"></span></li>
+                <li class="popup-card-list-item"><b>Inoculations:</b><span class="inoculations"></span></li>
+                <li class="popup-card-list-item"><b>Diseases:</b><span class="diseases"></span></li>
+                <li class="popup-card-list-item"><b>Parasites:</b><span class="parasites"></span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
       <main class="main">
         <section class="start-page">
+
+          <div class="start-fix"> 
+
           <div class="start-wrap">
             <h2 class="need-house">
               Not only people <br />
@@ -57,12 +101,14 @@
           <div class="fig-fog-wrapper">
             <figure class="fig-dog">
               <img
-                src="../../assets/images/start-screen-puppy.svg"
+                src="../../assets/images/start-screen-puppy-dima.png"
                 alt="puppy"
                 class="puppy-img"
               />
             </figure>
           </div>
+        </div>
+
         </section>
         <section class="about-shelter">
           <div class="about-main-wrapper">
@@ -112,46 +158,13 @@
                   class="arrow"
                 />
               </button>
-              <div class="friends-for-wrap">
-                <div class="friend-card-left">
-                  <figure class="card-left-one">
-                    <img
-                      src="../../assets/images/pets-katrine.svg"
-                      alt="katrine"
-                      class="kattt"
-                    />
-                  </figure>
-                  <h2 class="caption-one">Katrine</h2>
-                  <button class="button-friends" type="button">
-                    Learn more
-                  </button>
-                </div>
-
-                <div class="friend-card-center">
-                  <figure class="card-center-one">
-                    <img
-                      src="../../assets/images/pets-jennifer.svg"
-                      alt="jennifer"
-                    />
-                  </figure>
-                  <h2 class="caption-one">Jennifer</h2>
-                  <button class="button-friends" type="button">
-                    Learn more
-                  </button>
-                </div>
-
-                <div class="friend-card-rigth">
-                  <figure class="card-rigth-one">
-                    <img
-                      src="../../assets/images/pets-woody.svg"
-                      alt="woody"
-                      class="dogs-ph"
-                    />
-                  </figure>
-                  <h2 class="caption-one">Woody</h2>
-                  <button class="button-friends" type="button">
-                    Learn more
-                  </button>
+           
+              <div class="pets-card-wrapper">
+              
+                <div class="pets-card-slider">
+                  <div class="pets-item left"></div>
+                  <div class="pets-item active"></div>
+                  <div class="pets-item right"></div>
                 </div>
               </div>
 
@@ -163,6 +176,7 @@
                 />
               </button>
             </div>
+            
             <div class="buttons-for-mob">
               <button type="button" class="button-left">
                 <img
@@ -171,7 +185,6 @@
                   class="arrow"
                 />
               </button>
-
               <button type="button" class="button-rigth">
                 <img
                   src="../../assets/images/arrow-rigth.svg"
@@ -331,10 +344,8 @@
             <h2 class="title-suggestion">For questions and suggestions</h2>
             <span class="email-suggest">
               <logo class="email">
-                <a
-                  href="https://www.google.com/intl/ru/gmail/about/"
-                  target="blank"
-                >
+                <a href="mailto:email@shelter.com" target="blank">
+
                   <img
                     src="../../assets/icons/icon-email.svg"
                     alt="email"
@@ -342,10 +353,8 @@
                   />
                 </a>
               </logo>
-              <a
-                href="https://www.google.com/intl/ru/gmail/about/"
-                target="blank"
-              >
+              <a href="mailto:email@shelter.com" target="blank">
+
                 <p class="email-iss">email@shelter.com</p>
               </a>
             </span>

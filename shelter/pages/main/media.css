@@ -1,11 +1,11 @@
+@media  screen and (max-width: 1270px) {
 
-@media  screen and (max-width: 1050px) {
-    
-    .about-figure{ 
-        padding: 0;
-        padding-top: 22px;
-        padding-left: 15%;
+    .start-wrap{ 
+        padding-left: 20px;
     }
+
+
+    
     .about-article {
         margin-top: -7px;
     }
@@ -16,54 +16,76 @@
     }
     .friends-wrapper{ 
         max-width: 1050px;
-        padding-right: 20px;
-        padding-left: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
     }
-
-    .start-page {
-    height: 700px;
-    }
-
-    .fig-fog-wrapper{ 
-
-    }
-
-
-}
-@media  screen and (max-width: 950px) {
+  
     .about-wrapper{ 
         flex-direction: column-reverse;
-    }
-    .about-main-wrapper{ 
-        padding: 80px 166px 100px;
+        max-width: 600px;
+        margin: 0 auto;
     }
     .about-item{ 
+        width: 70%;
+    }
+    .friends-for-wrap {
+        width: 940px;
+    }
+
+    .about-item{ 
         width: 430px;
-        padding: 0;
+        padding-left: 85px;
+        margin-top: -5px;
+    }
+    .about-figure{
+        padding-left: 147px;
+        padding-top: 20px;
     }
 
     .friend-card-rigth{ 
-
         display: none;
     }
     .friends-for-wrap{ 
         width: 580px;
     }
 
+    .start-fix{
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        margin-left: -15px;
+    }
+    .puppy-img{
+        max-width: 589px;
+        height: 593px;
+    }
+    .start-page{ 
+        height: 1165px;
+    }   
+    .start-wrap{ 
 
-
+        margin-top: 150px auto;
+        max-width: 465px;
+    }
+    .fig-dog{ 
+        margin-left: 100px;
+        height: 0;
+        margin-top: 90px;
+    }
 
     .help{ 
         height: 779px;
     }
     .help-wrapper {
-        /* margin: 80px auto 100px; */
         padding: 80px 70px 100px;
     }
+    .icons-help{
+        max-width: 630px;
+        margin: 0 auto;
+    }
     .icons-1lev {
-        margin-top: -2px;
-        /* margin-left: 2px; */
-        /* margin-left: 20px; */
+        
+        margin-top: -2px auto;
         display: grid;
         grid-gap: 50px 60px;
         grid-template-columns: repeat(3, 170px);
@@ -93,8 +115,6 @@
         padding-right: 2px;
     }
 
-
-
     .donat-sect {
         height: 783px;
     }
@@ -111,9 +131,6 @@
         margin-left: 32px;
         margin-bottom: 53px;
     }
-
-
-
 
     .footer {
         height: 639px;
@@ -147,37 +164,24 @@
         align-self: start;
         padding-top: 30px;
 
-
-
-
     }
     .dog-wra{
         margin-top: 25px;
-        /* padding-top: 25px; */
         grid-column: span 4;
         justify-self: center;
     }
-}
-
-
-
-
-
-@media  screen and (max-width: 768px) {
+    .last-dog{ 
+        margin-top: -17px;
+    }
     .header-wrap{ 
         flex-wrap: nowrap;
         padding: 30px 30px 60px 30px;
     }
 
-
-    .start-page{ 
-        height: 1165px;
-        flex-direction: column;
-        justify-items: center;
-    }
     .start-wrap{ 
         margin: 150px auto;
         margin-bottom: 0;
+        padding-left: 0;
     }
     .start-button{ 
         margin-left: 27.5%;
@@ -187,15 +191,7 @@
         height: 593px;
 
     }
-    .fig-dog{ 
-        max-width: 569px;
-        height: 0;
-        margin-top: 90px;
-        margin-left: 16%;
-    }
-   
     
-
     .about-shelter {
         max-height: 1048px;
 
@@ -205,24 +201,27 @@
         padding-right: 29px;
         padding-left: 29px;
     }
-    .arrow{ 
-        padding-bottom: 3px;
+ 
+    .fig-dog{ 
+        margin-left: 7.8rem;
     }
-        /*ABOUT SHELTER*/ 
+    .puppy-img{
+        max-width: 569px;
+        height: 593px;
+    }
 
 }
 
-@media  screen and (max-width: 720px) {
+
+
+@media  screen and (max-width: 767px) {
     .friends-wrapper{ 
         padding-right: 10px;
         padding-left: 10px;
 
     }
 
-
-
     .help-wrapper {
-        /* margin: 80px auto 100px; */
         padding: 80px 10px 100px;
     }
     .icons-1lev {
@@ -233,16 +232,194 @@
     .donat {
         padding: 0 20px;
     }
+  
+    .title-footer{ 
+        padding-top: 40px;
+    }
+    .fig-dog{ 
+        margin-left: 2rem;
+    }
+  
+    
+    .for-burger{
+        z-index: 60;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
 
-    .start-page {
-        height: none;
+    .cozy-again.unactive{ 
+        display: none;
+    }
+
+    .header-ul{ 
+        text-align: center;
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        /* left: 155px; */
+        width: 320px;
+        height: 100%;
+        padding-top: 248px;
+        background: #292929;
+
+        transform: translateX(30%);
+        transition: transform 1s;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-ul.active{ 
+        transform: translateX(-65%);  
+        padding-left: 0;
+        transition: 2s all ease;
+
+    }
+
+    .menu-btn{ 
+        position: relative;
+        z-index:100;
+
+        display: block;
+        width: 30px;
+        height: 28px;
+        top: 4px;
+        left: 0px;
+        transition: 2s all ease;
+     
+
+        
+}
+.menu-btn span {
+    
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f1cdb3;
+    transition: all 0.6s;
+}
+
+.menu-btn span:nth-of-type(2) {
+    top: calc(55% - 5px);
+    
+}
+.menu-btn span:nth-of-type(3) {
+    top: calc(55% + 5px);
+}
+
+
+
+
+
+
+.menu-btn.active{
+   
+    top: 1px;
+    left: -5px;
+    transform: rotate(90deg);
+    transition: 2s all ease;
+    scroll-behavior: unset;
+}
+
+.menu-btn.menu-btn.active span {
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    /* top: 5%;
+    left: 70%; */
+    transform: translate(-50%, -50%);
+    background-color: #f1cdb3;
+    transition: all 0.6s;
+}
+
+.menu-btn.active span:nth-of-type(2) {
+    top: calc(55% - 5px);
+    
+}
+.menu-btn.active span:nth-of-type(3) {
+    top: calc(55% + 5px);
+}
+
+    .header-item{ 
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 160%;
+            }
+    .item-active-p{
+        width: 243px;
+        margin: 0 auto;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 160%;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        top: 0;
+
+    }
+
+    .header-list{
+        margin-left: -18px;
+        margin-top: 1px;
+        margin-bottom: 40px;
+        
+
+    }
+    .header-list:first-child{
+        border: none;
+        margin-left: -15px;
+        margin-top: 0;        }
+
+    .header-item:first-child {
+        padding-bottom: 6px;
+    }
+
+    .header-item.active {
+        margin-bottom: -53px;
     }
 
 
+    .header-wrap{
+        padding: 30px 53px 0px 10px;
+    }
+
+    
+    .width-page.modal-open {
+        overflow-y: hidden;
+        position: relative;
+        height: 100vh;
+        width: 100%;
+
+    
 }
 
-@media  screen and (max-width: 650px) {
-  
+
+
+    .one-ex.active{ 
+        display: block;
+        background: rgba(41, 41, 41, 0.6);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);          
+        z-index: 100;
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .cozy-h{
+        position: relative;
+        width: 194px;
+        z-index: 200;
+    }
+    .fig-dog{ 
+        margin-left: 0;
+
+    }
+
     .about-main-wrapper{ 
         padding: 80px 40px 100px;
 
@@ -294,22 +471,28 @@
         padding-bottom: 40px;
     }
 
-
-
-
-
-
-}
-@media  screen and (max-width: 550px) {
-    .fig-dog{ 
+    .about-figure{
+        padding-left: 0;
+        max-width: 300px;
+        margin: 0 auto  ;
     }
-    /*ABOUT SHELTER*/ 
+
+    .about-item{
+        max-width: 350px;
+        margin: 0 auto;
+        text-align: justify;
+        padding-left: 0;
+    }
+    .fig-dog{ 
+        margin-left: 0;
+    }
     .about-main-wrapper{ 
         padding: 60px 20px 100px;
 
     }
     .issue-article{ 
         font-size: 25px;
+        padding-bottom: 40px;
     }
 
     .help{ 
@@ -325,7 +508,8 @@
     .help-tittle{
         font-size: 25px;
         padding-bottom: 42px;
-    }
+            max-width: 225px ;
+        }
     .help-link{ 
         font-size: 15px;
         line-height: 110%;
@@ -356,28 +540,49 @@
     }
 
 
-
-    
-
-}
-
-
-
-@media  screen and (max-width: 450px) {
     .start-page{ 
         height: 1000px;
     }
-    .start-button{ 
-        margin-left: 15%;
+    .fig-dog{ 
+        margin-top: 137px;
+        margin-left: 0;
+
+    }
+    .puppy-img{ 
+        width: 330px;
+        height: 381px;
     }
 
-    .header-nav{ 
+
+    .our-friends{ 
+        height: 791px;
+    }
+    .friends-issue{ 
+        padding-top: 43px;
+    }
+
+    .friends-cards{ 
+        justify-content: center;
+    }
+  
+    .for-hide{ 
         display: none;
     }
-    .header-wrap{ 
-        padding-top: 30px;
-        padding-left: 10px;
+    .buttons-for-mob{ 
+        width: 270px;
+        display: flex;
+        margin: 17px auto;
     }
+
+      
+    .button-get{ 
+        margin-top: 45px;
+    }
+  
+
+
+
+
     .need-house{ 
         font-size: 25px;
         text-align: center;
@@ -385,106 +590,113 @@
     }
     .start-issue{ 
         margin:  0 auto;
-        max-width: 300px;
         font-size: 15px;
         line-height: 160%;
         text-align: center;
     }
-    .fig-fog-wrapper{ 
+
+    .start-wrap{ 
+        width: 300px;
+    }
+    .start-button{ 
+        display: block;
+        margin: 0 auto;
+        /* margin-left: 15%; */
+    }
+
+    .start-page{ 
+        height: 823px;
+    }
+
+    .fig-dog{ 
         margin-top: 0;
+    }
+    .puppy-img{ 
+        width: 260px;
+        height: 271px;
+    }
+
+    .fig-fog-wrapper{ 
+        margin-top: 70px;
 
 
     }
-    .fig-dog{ 
+    .start-fix{
+        padding-right: 0;
         margin-left: 0;
     }
 
-        /*ABOUT SHELTER*/ 
-        .about-shelter{ 
-            height: 974px;
-        }
-        .about-main-wrapper{ 
-            padding: 40px 10px 60px;
-            font-size: 15px;
+    .about-shelter{ 
+        height: 974px;
+    }
+    .about-main-wrapper{ 
+        padding: 28px 10px 60px;
+        font-size: 15px;
+
+    }
+    .about-article{ 
+        font-size: 25px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: 0.06em;
+        width: 300px;
+        margin:  0 auto;
+    }
+    .about-item{ 
+        width: 300px;
+        margin: 0 auto;
+        padding-left: 0;
+
+    }
+
+    .about-text{ 
+        max-width: 270px;
+        margin:  0 auto;
+
+        font-size: 15px;
+        line-height: 160%;
+        text-align: justify;
+    }
+
+
+
+
+    .about-figure{ 
+        padding-top: 107px;
+        padding-left: 0;
+        width: 260px;
+        height: 356px;
+        margin: 0 auto;
+    }
+
     
-        }
-        .about-article{ 
-            font-size: 25px;
-            line-height: 130%;
-            text-align: center;
-            letter-spacing: 0.06em;
-            width: 300px;
-            margin:  0 auto;
-        }
-        .about-item{ 
-            width: 320px;
+    .icon3{ 
+        margin-top: -5px;
+    }
+    .icon4{ 
+        margin-top: -5px;
+    }
+    .icon5{ 
+        margin-top: -3px;
+    }
+    .icon6{ 
+        margin-top: -3px;
+    }
+    .icon9{ 
+        margin-top: -5px;
+    }
 
-        }
-        .about-text{ 
-            max-width: 270px;
-            margin:  0 auto;
+    .icon-fig{ 
+        height: 90px;;
+    }
 
-            font-size: 15px;
-            line-height: 160%;
-            text-align: justify;
-        }
-
-
-
-
-        .about-figure{ 
-            padding-top: 80px;
-            padding-left: 0;
-            width: 260px;
-            height: 356px;
-        }
-        .friends-cards{ 
-            justify-content: center;
-        }
-        .our-friends{ 
-            height: 791px;
-        }
-        .for-hide{ 
-            display: none;
-        }
-        .buttons-for-mob{ 
-            width: 270px;
-            display: flex;
-            margin: 17px auto;
-        }
-        .issue-article{ 
-            width: 300px;
-            padding-bottom: 40px;
-        }
-        .friends-issue{ 
-            padding-top: 43px;
-        }
-        .button-get{ 
-            margin-top: 45px;
-        }
+    .icons-1lev {
+        grid-template-rows: none;
+        margin-top: 2px;
+    }
 
 
-
-        .icon-fig{ 
-            height: 90px;;
-        }
-    
-        .icons-1lev {
-            grid-template-rows: none;
-            grid-template-rows: repeat (5,80px);
-            margin-top: 2px;
-        }
-    
-        .help-tittle {
-            max-width: 225px ;
-        }
-
-
-
-        .title-footer{ 
-            font-size: 25px;
-        }
-        .foot-info{ 
+    .foot-info{ 
         max-width: 300px;
         margin-left: 0;
         padding-left: 0;
@@ -504,25 +716,30 @@
       
         }
         
-
         .donat-sect {
-            height: 562px;
+            height: 542px;
         }
 
+        .donat{
+            max-width: 300px;
+            margin: 0 auto;
+        }
         .title-footer{ 
             width: 220px;
             text-align: center;
             padding-top: 44px;
             padding-left: 39px;
+            padding-right: 0;
+            font-size: 25px;
+
         }
         .issue1-foot {
-            width: 310px;
             font-weight: 400;
             font-size: 15px;
             line-height: 160%;
             letter-spacing: 0;
             margin-top: -2px;
-            padding-left: 12px;
+            padding-left: 11px;
 
         }
 
@@ -535,6 +752,11 @@
             max-width: 260px;
             padding-left: 20px;
         }
+
+
+
+
+
         .title-suggestion{
             text-align: center;
         }
@@ -551,11 +773,11 @@
             margin-top: -2px;
         }
         .address-1{
-            padding-left: 8px;
-            padding-top: 3px;
+            padding-left: 10px;
+            padding-top: 7px;
         }
         .address-2{
-            padding-left: 8px;
+            padding-left: 10px;
             padding-top: 7px;
 
         }
@@ -567,40 +789,51 @@
         .last-dog{
             margin-top: 0;
         }
-        .donat{
-            width: 300px;
-            margin: 0 auto;
+
+        .donat{ 
+            padding: 0 10px;
         }
-        .about-wrapper{
-            width: 300px;
-            margin: 0 auto;
+        .donat-wrapper{ 
+            height: 542px;
         }
+
+        .last-dog{
+            margin-top: -3px;
+            
+        }
+}
+
+
+
+
+
+
+
+@media  screen and (max-width: 497px) {
+
+        .issue-article{ 
+            width: 300px;
+        }
+    
+ 
     }
+  
 
 
 
-@media  screen and (max-width: 330px) {
-    .start-page{ 
-        height: 823px;
+
+@media  screen and (max-width: 350px) {
+
+    .one-ex.active{ 
+    margin-left: -10px;
     }
-
-    .fig-fog-wrapper{ 
-        margin-top: 70px;
-
-
+    .header-wrap{
+        padding-left: 10px;
     }
+  
 
-
-    .fig-dog{ 
-        height: 210px;
-        margin-top: 0;
-    }
-    .puppy-img{ 
-        height: 271px;
-    }
-
-
-    /*ABOUT SHELTER*/ 
+  
+   
 
 
     .about-main-wrapper{ 
@@ -613,44 +846,21 @@
     }
 
 
-    .about-figure{ 
-        padding-top: 107px;
-        margin-left: 21px;
+
+
+    .header-ul{ 
+    width: 100%;
+    margin-left: -55px;
     }
 
-   
-
-    .icon3{ 
-        margin-top: -5px;
-    }
-    .icon4{ 
-        margin-top: -5px;
-    }
-    .icon5{ 
-        margin-top: -3px;
-    }
-    .icon6{ 
-        margin-top: -3px;
-    }
-  
-  
-    .icon9{ 
-        margin-top: -5px;
+    .for-burger{
+        margin-left: -100px;
     }
 
 
 
-    .donat{ 
-        padding: 0 10px;
+    .header-ul.active{ 
+        padding-left: 8px;
     }
-    .donat-wrapper{ 
-        height: 542px;
-    }
-
-    .donat-sect {
-        height: 542px;
-    }
-
-
 
 }
