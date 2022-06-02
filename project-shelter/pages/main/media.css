@@ -1,0 +1,866 @@
+@media  screen and (max-width: 1270px) {
+
+    .start-wrap{ 
+        padding-left: 20px;
+    }
+
+
+    
+    .about-article {
+        margin-top: -7px;
+    }
+    .about-shelter {
+        height: 1048px;
+
+
+    }
+    .friends-wrapper{ 
+        max-width: 1050px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+  
+    .about-wrapper{ 
+        flex-direction: column-reverse;
+        max-width: 600px;
+        margin: 0 auto;
+    }
+    .about-item{ 
+        width: 70%;
+    }
+    .friends-for-wrap {
+        width: 940px;
+    }
+
+    .about-item{ 
+        width: 430px;
+        padding-left: 85px;
+        margin-top: -5px;
+    }
+    .about-figure{
+        padding-left: 147px;
+        padding-top: 20px;
+    }
+
+    .friend-card-rigth{ 
+        display: none;
+    }
+    .friends-for-wrap{ 
+        width: 580px;
+    }
+
+    .start-fix{
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        margin-left: -15px;
+    }
+    .puppy-img{
+        max-width: 589px;
+        height: 593px;
+    }
+    .start-page{ 
+        height: 1165px;
+    }   
+    .start-wrap{ 
+
+        margin-top: 150px auto;
+        max-width: 465px;
+    }
+    .fig-dog{ 
+        margin-left: 100px;
+        height: 0;
+        margin-top: 90px;
+    }
+
+    .help{ 
+        height: 779px;
+    }
+    .help-wrapper {
+        padding: 80px 70px 100px;
+    }
+    .icons-help{
+        max-width: 630px;
+        margin: 0 auto;
+    }
+    .icons-1lev {
+        
+        margin-top: -2px auto;
+        display: grid;
+        grid-gap: 50px 60px;
+        grid-template-columns: repeat(3, 170px);
+        grid-template-rows: repeat(2, 117px);
+    }
+    .icons-1lev > *{ 
+        margin: 0;
+        padding: 0;
+    }
+    .icon-fig:nth-child(6){ 
+        margin-left: 0;
+    }
+    .icon1{ 
+            margin-left: -2px;
+    }
+    .icon2{ 
+            padding-right: 5px;        
+    }
+    .icon7{ 
+        padding-top: 5px;
+    }
+    .icon8{ 
+        padding-right: 5px;
+    }
+    .icon9{ 
+        padding-top: 2px;
+        padding-right: 2px;
+    }
+
+    .donat-sect {
+        height: 783px;
+    }
+    .donat-wrapper{ 
+        max-width: 505px;
+        height: 603px;
+    }
+    .donat {
+        flex-direction: column-reverse;
+    }
+
+
+    .foot-info{ 
+        margin-left: 32px;
+        margin-bottom: 53px;
+    }
+
+    .footer {
+        height: 639px;
+    }
+
+    .foot-main {
+        padding-top: 0;
+        margin: 0 auto;
+        max-width: 708px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    .for-visit { 
+        padding-right: 7px;
+        grid-column: span 2;
+        justify-self: center;
+        align-self: start;
+        padding-top: 28px;
+
+
+
+
+    }
+    .for-suggestion{
+        padding-top: 10px;
+        grid-column: span 2;
+        justify-self: center;
+        align-self: start;
+        padding-top: 30px;
+
+    }
+    .dog-wra{
+        margin-top: 25px;
+        grid-column: span 4;
+        justify-self: center;
+    }
+    .last-dog{ 
+        margin-top: -17px;
+    }
+    .header-wrap{ 
+        flex-wrap: nowrap;
+        padding: 30px 30px 60px 30px;
+    }
+
+    .start-wrap{ 
+        margin: 150px auto;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+    .start-button{ 
+        margin-left: 27.5%;
+    }
+    .fig-dog-wrapper{ 
+        max-width: 569px;
+        height: 593px;
+
+    }
+    
+    .about-shelter {
+        max-height: 1048px;
+
+
+    }
+    .friends-wrapper{ 
+        padding-right: 29px;
+        padding-left: 29px;
+    }
+ 
+    .fig-dog{ 
+        margin-left: 7.8rem;
+    }
+    .puppy-img{
+        max-width: 569px;
+        height: 593px;
+    }
+
+}
+
+
+
+@media  screen and (max-width: 767px) {
+    .friends-wrapper{ 
+        padding-right: 10px;
+        padding-left: 10px;
+
+    }
+
+    .help-wrapper {
+        padding: 80px 10px 100px;
+    }
+    .icons-1lev {
+        grid-gap: 50px 10px;
+
+
+    }
+    .donat {
+        padding: 0 20px;
+    }
+  
+    .title-footer{ 
+        padding-top: 40px;
+    }
+    .fig-dog{ 
+        margin-left: 2rem;
+    }
+  
+    
+    .for-burger{
+        z-index: 60;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin: 0;
+        padding: 0;
+    }
+
+    .cozy-again.unactive{ 
+        display: none;
+    }
+
+    .header-ul{ 
+        text-align: center;
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        /* left: 155px; */
+        width: 320px;
+        height: 100%;
+        padding-top: 248px;
+        background: #292929;
+
+        transform: translateX(30%);
+        transition: transform 1s;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-ul.active{ 
+        transform: translateX(-65%);  
+        padding-left: 0;
+        transition: 2s all ease;
+
+    }
+
+    .menu-btn{ 
+        position: relative;
+        z-index:100;
+
+        display: block;
+        width: 30px;
+        height: 28px;
+        top: 4px;
+        left: 0px;
+        transition: 2s all ease;
+     
+
+        
+}
+.menu-btn span {
+    
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f1cdb3;
+    transition: all 0.6s;
+}
+
+.menu-btn span:nth-of-type(2) {
+    top: calc(55% - 5px);
+    
+}
+.menu-btn span:nth-of-type(3) {
+    top: calc(55% + 5px);
+}
+
+
+
+
+
+
+.menu-btn.active{
+   
+    top: 1px;
+    left: -5px;
+    transform: rotate(90deg);
+    transition: 2s all ease;
+    scroll-behavior: unset;
+}
+
+.menu-btn.menu-btn.active span {
+    width: 30px;
+    height: 2px;
+    position: absolute;
+    /* top: 5%;
+    left: 70%; */
+    transform: translate(-50%, -50%);
+    background-color: #f1cdb3;
+    transition: all 0.6s;
+}
+
+.menu-btn.active span:nth-of-type(2) {
+    top: calc(55% - 5px);
+    
+}
+.menu-btn.active span:nth-of-type(3) {
+    top: calc(55% + 5px);
+}
+
+    .header-item{ 
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 160%;
+            }
+    .item-active-p{
+        width: 243px;
+        margin: 0 auto;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 160%;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        top: 0;
+
+    }
+
+    .header-list{
+        margin-left: -18px;
+        margin-top: 1px;
+        margin-bottom: 40px;
+        
+
+    }
+    .header-list:first-child{
+        border: none;
+        margin-left: -15px;
+        margin-top: 0;        }
+
+    .header-item:first-child {
+        padding-bottom: 6px;
+    }
+
+    .header-item.active {
+        margin-bottom: -53px;
+    }
+
+
+    .header-wrap{
+        padding: 30px 53px 0px 10px;
+    }
+
+    
+    .width-page.modal-open {
+        overflow-y: hidden;
+        position: relative;
+        height: 100vh;
+        width: 100%;
+
+    
+}
+
+
+
+    .one-ex.active{ 
+        display: block;
+        background: rgba(41, 41, 41, 0.6);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);          
+        z-index: 100;
+        height: 100vh;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .cozy-h{
+        position: relative;
+        width: 194px;
+        z-index: 200;
+    }
+    .fig-dog{ 
+        margin-left: 0;
+
+    }
+
+    .about-main-wrapper{ 
+        padding: 80px 40px 100px;
+
+    }
+    .friend-card-center{ 
+        display: none;
+    }
+    .friends-cards{ 
+        max-width: 500px;
+
+        margin: 0 auto;
+    }
+    .friends-for-wrap{ 
+        width: 270px;
+        justify-content: center;
+    }
+
+
+    .title-suggestion {
+        font-size: 25px;
+    }
+    .title-visit {
+        font-size: 25px;
+    }
+    .email-suggest {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 115%;
+    }
+
+    .footer {
+        height: 809px;
+    }
+
+    .last-dog{ 
+        width: 260px;
+        height: 269px;
+    }    
+    .foot-main {
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-end
+    }
+    .for-suggestion{
+        align-self: center;
+    }
+    .for-visit{
+        align-self: center;
+        padding-bottom: 40px;
+    }
+
+    .about-figure{
+        padding-left: 0;
+        max-width: 300px;
+        margin: 0 auto  ;
+    }
+
+    .about-item{
+        max-width: 350px;
+        margin: 0 auto;
+        text-align: justify;
+        padding-left: 0;
+    }
+    .fig-dog{ 
+        margin-left: 0;
+    }
+    .about-main-wrapper{ 
+        padding: 60px 20px 100px;
+
+    }
+    .issue-article{ 
+        font-size: 25px;
+        padding-bottom: 40px;
+    }
+
+    .help{ 
+        height: 745px;
+    }
+
+    .help-wrapper {
+        padding: 42px 10px;
+        max-width: 290px;
+
+    }
+
+    .help-tittle{
+        font-size: 25px;
+        padding-bottom: 42px;
+            max-width: 225px ;
+        }
+    .help-link{ 
+        font-size: 15px;
+        line-height: 110%;
+    }
+    .icons-1lev {
+
+        grid-template-columns: repeat(2,130px);
+        grid-template-rows: repeat (5,85px);
+        grid-gap: 30px 30px;
+    }
+
+  .icons-1lev > *{ 
+    margin: 0;
+    padding: 0;
+}
+    .icon-ph-help{
+        width: 50px; 
+
+    }
+
+    .icon-caption{ 
+        margin-top: 14px;
+    }
+
+    .icons-1lev {
+        grid-template-rows: none;
+        grid-template-rows: repeat (5,80px);
+    }
+
+
+    .start-page{ 
+        height: 1000px;
+    }
+    .fig-dog{ 
+        margin-top: 137px;
+        margin-left: 0;
+
+    }
+    .puppy-img{ 
+        width: 330px;
+        height: 381px;
+    }
+
+
+    .our-friends{ 
+        height: 791px;
+    }
+    .friends-issue{ 
+        padding-top: 43px;
+    }
+
+    .friends-cards{ 
+        justify-content: center;
+    }
+  
+    .for-hide{ 
+        display: none;
+    }
+    .buttons-for-mob{ 
+        width: 270px;
+        display: flex;
+        margin: 17px auto;
+    }
+
+      
+    .button-get{ 
+        margin-top: 45px;
+    }
+  
+
+
+
+
+    .need-house{ 
+        font-size: 25px;
+        text-align: center;
+        letter-spacing: 0.06em;
+    }
+    .start-issue{ 
+        margin:  0 auto;
+        font-size: 15px;
+        line-height: 160%;
+        text-align: center;
+    }
+
+    .start-wrap{ 
+        width: 300px;
+    }
+    .start-button{ 
+        display: block;
+        margin: 0 auto;
+        /* margin-left: 15%; */
+    }
+
+    .start-page{ 
+        height: 823px;
+    }
+
+    .fig-dog{ 
+        margin-top: 0;
+    }
+    .puppy-img{ 
+        width: 260px;
+        height: 271px;
+    }
+
+    .fig-fog-wrapper{ 
+        margin-top: 70px;
+
+
+    }
+    .start-fix{
+        padding-right: 0;
+        margin-left: 0;
+    }
+
+    .about-shelter{ 
+        height: 974px;
+    }
+    .about-main-wrapper{ 
+        padding: 28px 10px 60px;
+        font-size: 15px;
+
+    }
+    .about-article{ 
+        font-size: 25px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: 0.06em;
+        width: 300px;
+        margin:  0 auto;
+    }
+    .about-item{ 
+        width: 300px;
+        margin: 0 auto;
+        padding-left: 0;
+
+    }
+
+    .about-text{ 
+        max-width: 270px;
+        margin:  0 auto;
+
+        font-size: 15px;
+        line-height: 160%;
+        text-align: justify;
+    }
+
+
+
+
+    .about-figure{ 
+        padding-top: 107px;
+        padding-left: 0;
+        width: 260px;
+        height: 356px;
+        margin: 0 auto;
+    }
+
+    
+    .icon3{ 
+        margin-top: -5px;
+    }
+    .icon4{ 
+        margin-top: -5px;
+    }
+    .icon5{ 
+        margin-top: -3px;
+    }
+    .icon6{ 
+        margin-top: -3px;
+    }
+    .icon9{ 
+        margin-top: -5px;
+    }
+
+    .icon-fig{ 
+        height: 90px;;
+    }
+
+    .icons-1lev {
+        grid-template-rows: none;
+        margin-top: 2px;
+    }
+
+
+    .foot-info{ 
+        max-width: 300px;
+        margin-left: 0;
+        padding-left: 0;
+        margin-bottom: 35px;
+        }
+        
+
+        .credit-main{ 
+            width: 281px;
+            margin-left: 8px;
+            margin-top: 2px;
+        }
+
+        .numbers-foot {
+            font-size: 15px;
+            margin-top: 3px;
+      
+        }
+        
+        .donat-sect {
+            height: 542px;
+        }
+
+        .donat{
+            max-width: 300px;
+            margin: 0 auto;
+        }
+        .title-footer{ 
+            width: 220px;
+            text-align: center;
+            padding-top: 44px;
+            padding-left: 39px;
+            padding-right: 0;
+            font-size: 25px;
+
+        }
+        .issue1-foot {
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 160%;
+            letter-spacing: 0;
+            margin-top: -2px;
+            padding-left: 11px;
+
+        }
+
+        .issu-textx { 
+            padding-right: 10px;
+            text-align: justify;
+            padding-left: 6px;
+        }
+        .fig-foot{
+            max-width: 260px;
+            padding-left: 20px;
+        }
+
+
+
+
+
+        .title-suggestion{
+            text-align: center;
+        }
+        .email-suggest{
+            padding-left: 18px;
+        }
+        .phone-suggest{
+            padding-left: 22px;
+        }
+        .title-visit{
+            width: 270px;
+            text-align: center;
+            padding-left: 23px;
+            margin-top: -2px;
+        }
+        .address-1{
+            padding-left: 10px;
+            padding-top: 7px;
+        }
+        .address-2{
+            padding-left: 10px;
+            padding-top: 7px;
+
+        }
+
+        .dog-wra{
+            margin-top: 0;
+        }
+    
+        .last-dog{
+            margin-top: 0;
+        }
+
+        .donat{ 
+            padding: 0 10px;
+        }
+        .donat-wrapper{ 
+            height: 542px;
+        }
+
+        .last-dog{
+            margin-top: -3px;
+            
+        }
+}
+
+
+
+
+
+
+
+@media  screen and (max-width: 497px) {
+
+        .issue-article{ 
+            width: 300px;
+        }
+    
+ 
+    }
+  
+
+
+
+
+@media  screen and (max-width: 350px) {
+
+    .one-ex.active{ 
+    margin-left: -10px;
+    }
+    .header-wrap{
+        padding-left: 10px;
+    }
+  
+
+  
+   
+
+
+    .about-main-wrapper{ 
+        max-width: 320px;
+
+    }
+    .about-item{ 
+        width: 300px;
+
+    }
+
+
+
+
+    .header-ul{ 
+    width: 100%;
+    margin-left: -55px;
+    }
+
+    .for-burger{
+        margin-left: -100px;
+    }
+
+
+
+    .header-ul.active{ 
+        padding-left: 8px;
+    }
+
+}
