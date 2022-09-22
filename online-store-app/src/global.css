@@ -1,0 +1,21 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.root{
+    /* max-width: 1400px; */
+    margin: 0 auto;
+}
+
+
+.gof{ 
+    width: 100px;
+}
+.ex{ 
+    width: 150px;
+    height: 150px;
+}

@@ -1,0 +1,148 @@
+.header{ 
+    /* max-width: 1400px; */
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.example { 
+    display: flex;
+}
+.example > input { 
+    padding: 10px;
+    margin-right: 10px;
+}
+.time-work{ 
+    padding: 15px 20px 10px ;
+    background-color: #020202;
+
+    display: flex;
+    justify-content: space-between;    
+}
+.time-work > *{ 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.days > span { 
+    color: #A2A6B0;;
+}
+
+.nav{ 
+    color: #020202;
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav > * { 
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+}
+.nav > ul { 
+    list-style: none;
+}
+
+.logo-h{ 
+    /* padding-right: 20px; */
+    width: 33px;
+    height: 40px;
+}
+
+.items-h{ 
+    display: flex;
+    align-items: center;
+}
+
+.item-h{ 
+    padding: 0 25px;
+}
+
+.second-part{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0;
+}
+
+.logo-m{ 
+    width: 33px;
+    height: 40px;
+    background: url(../../../assets/logos/S.svg) no-repeat center;
+    background-size: cover;
+    margin-right: 20px;
+}
+.backet{ 
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    background: url(../../../assets/logos/l-shopping-cart.svg) no-repeat;
+    background-size: cover;
+}
+
+
+/* Right bar  */
+.right-bar{ 
+    display: flex;
+}
+  form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+    border-radius: 15px;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  /* Style the submit button */
+  form.example button {
+    width: 20%;
+    padding: 10px;
+    background: transparent;
+    color: #000;
+    font-size: 17px;
+    border: none;
+    border-left: none; 
+    cursor: pointer;
+  }
+  
+  form.example button:hover {
+    background: #A2A6B0;
+    border-radius: 15px;
+  }
+form.example input:focus{ 
+    border: 1px solid #A2A6B0;    
+}
+form.example input:active{ 
+    border: 1px solid #A2A6B0;    
+}
+
+
+.third-part{ 
+    height: 130px;
+    width: 100%;
+    background: url(../../../assets/images/billboard.png) no-repeat;
+    background-size: cover;
+}
+
+.amount { 
+    color:  #000;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .second-part{ 
+    
+    }
+
+    .item-h{ 
+        padding: 0 7px;
+        font-size: 10px;
+    }
+    .searchIn{ 
+        width: 120px;
+    }
+}

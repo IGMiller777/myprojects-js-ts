@@ -1,0 +1,120 @@
+.product-side{ 
+    width: 100%;
+}
+
+.title { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.sort-form{ 
+    padding-right: 30px;
+}
+
+.sort-fil{ 
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid #A2A6B0;
+}
+
+
+.product-cards { 
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px 5px;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+
+.item-product { 
+    max-width: 214px;
+    height: 346px;
+    padding-left: 25px;
+    display: block;
+}
+.item-product:hover { 
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 2px 35px 14px rgb(13 13 13 / 4%);
+}
+
+.stock{ 
+    background: url(../../../../assets/logos/stock.svg) no-repeat;
+    width: 70px;
+    height: 26px;
+    
+}
+
+.icon-prod{ 
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-items: center;
+}
+
+.rating{ 
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+    border-radius: 50%;
+}
+
+.name-product, .year-prod { 
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.price-prod { 
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.head-st{ 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-right: 8px;
+}
+
+.basketMain{ 
+    background: url(/src/assets/logos/l-shopping-cart.svg) no-repeat;
+    width: 25px;
+    height: 25px;
+    display: none;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .product-cards { 
+       
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 5px 5px;
+        grid-template-rows: repeat(8, 1fr);
+    }
+    .sort-fil{ 
+    width: 130px;
+    font-size: 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 750px) {
+    .product-cards { 
+       
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+    }
+
+
+}

@@ -1,0 +1,136 @@
+.filter { 
+    width: 264px;
+    background-color: #f5f7ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.filter > h2 { 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 5px;
+}
+/* .filter > h3 { 
+  
+} */
+.title-f { 
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+
+}
+.button-f1{ 
+    width: 170px;
+    height: 37px;
+    border: 2px solid #01A4FF;
+    background: #01A4FF;
+    color: #fff;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.button-f1:hover { 
+    cursor: pointer;
+    border: 2px solid #084363;
+    background: #084363;
+
+}
+
+.clear{ 
+    color: #A2A6B0 ;
+}
+
+.year{ 
+    margin-bottom: 20px;
+}
+
+.price { 
+    margin-bottom: 20px;
+}
+
+.color { 
+    margin-bottom: 20px;
+}
+
+.brands { 
+    text-align: center;
+}
+.brands > h3 { 
+    margin-bottom: 20px;
+}
+
+.brand-item{ 
+    width: 265px;
+    height: 250px;
+    background: url(../../../../assets/images/blockbr.svg) no-repeat;
+    background-size: cover;
+}
+
+.bill-board{ 
+    width: 263px;
+    height: 410px;
+    background: url(../../../../assets/images/chairs-bilboard2.svg) no-repeat;
+    background-size: cover;
+
+}
+
+.footer-wrap-1 { 
+    padding: 30px 60px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color:#000;
+    color: #fff;
+
+
+}
+.sort-fil-as{ 
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid #A2A6B0;
+    font-size: 15pt;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.year-foot{ 
+    padding-right: 20px;
+    font-size: 19pt;
+    color: #fff;
+
+}
+.git-hub{ 
+    font-size: 16pt;
+    text-decoration: none;
+    color: #fff;
+
+}
+.git-hub:hover, .link-rs:hover{ 
+    color: #fff;
+    transition: 1s;
+}
+.rsschool{ 
+    color: #fff;
+
+}
+.link-rs{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16pt;
+}
+
+
+@media screen and (max-width: 900px) {
+    .filter { 
+        width: 200px;
+    }
+
+}

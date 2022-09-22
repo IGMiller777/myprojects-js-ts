@@ -1,0 +1,229 @@
+[
+    { 
+        "id":"1",
+        "fullname": "EX DISPLAY : MSI Pro 16 Flex-069AU 15.6 MULTITOUCH All-In-On...",
+        "price":"$499",
+        "level": "low",
+        "year": "2022",
+        "color":"grey",
+        "rating": "4"
+    },
+    { 
+        "id":"2",
+        "fullname": "AX DISPLAY : MSI Pro 16 Flex-077AU 15.6 MULTITOUCH All-In-On...",
+        "price":"$1120",
+        "level": "high",
+        "year": "2021",
+        "color":"black",
+        "rating": "4"
+    },
+    { 
+        "id":"3",
+        "fullname": "BX DISPLAY : MSI Pro 16 Flex-036UA 16.4 MULTITOUCH All-In-On...",
+        "price":"$529",
+        "level": "low",
+        "year": "2022",
+        "color":"grey",
+        "rating": "3"
+    },
+    { 
+        "id":"4",
+        "fullname": "CX DISPLAY : MSI Pro 16 Flex-033UA 16.4 MULTITOUCH All-In-On...",
+        "price":"$1029",
+        "level": "high",
+        "year": "2020",
+        "color":"black",
+        "rating": "3"
+    },
+    { 
+        "id":"5",
+        "fullname": "UL DISPLAY : MSI Pro 14 Flex-039AU 14.0 MULTITOUCH All-In-On...",
+        "price":"$479",
+        "level": "low",
+        "year": "2019",
+        "color":"grey",
+        "rating": "5"
+    },
+    { 
+        "id":"6",
+        "fullname": "DL DISPLAY : MSI Pro 14 Flex-012UD 14 MULTITOUCH All-In-On...",
+        "price":"$879",
+        "level": "medium",
+        "year": "2022",
+        "color":"black",
+        "rating": "5"
+    },
+    { 
+        "id":"7",
+        "fullname": "FL DISPLAY : MSI Pro 14 Flex-091SA 14 MULTITOUCH All-In-On...",
+        "price":"$579",
+        "level": "low",
+        "year": "2021",
+        "color":"white",
+        "rating": "4"
+    },
+    { 
+        "id":"8",
+        "fullname": "MAXW DISPLAY : MSI Pro 15 Flex-017ML 15 MULTITOUCH All-In-On...",
+        "price":"$539",
+        "level": "low",
+        "year": "2018",
+        "color":"black",
+        "rating": "3"
+    },
+    { 
+        "id":"9",
+        "fullname": "MAXW DISPLAY : MSI Pro 15 Flex-095DJ 15 MULTITOUCH All-In-On...",
+        "price":"$539",
+        "level": "low",
+        "year": "2019",
+        "color":"white",
+        "rating": "4"
+    },
+    { 
+        "id":"10",
+        "fullname": "JAXW DISPLAY : MSI Pro 15 Flex-067WE 15 MULTITOUCH All-In-On...",
+        "price":"$1229",
+        "level": "high",
+        "year": "2018",
+        "color":"grey",
+        "rating": "5"
+    },
+    { 
+        "id":"11",
+        "fullname": "VIWEX DISPLAY : MSI Pro 13 Flex-035RT 13.3 MULTITOUCH All-In-On...",
+        "price":"$419",
+        "level": "low",
+        "year": "2019",
+        "color":"grey",
+        "rating": "4"
+    },
+    { 
+        "id":"12",
+        "fullname": "WIWEX DISPLAY : MSI Pro 13 Flex-048KP 13.3 MULTITOUCH All-In-On...",
+        "price":"$419",
+        "level": "low",
+        "year": "2020",
+        "color":"black",
+        "rating": "5"
+    },
+    { 
+        "id":"13",
+        "fullname": "VIWEX DISPLAY : MSI Pro 13 Flex-046ZO 13.3 MULTITOUCH All-In-On...",
+        "price":"$999",
+        "level": "high",
+        "year": "2021",
+        "color":"black",
+        "rating": "3"
+    },
+    { 
+        "id":"14",
+        "fullname": "KLTRA DISPLAY : MSI Pro 15 Flex-099ULT 15 MULTITOUCH All-In-On...",
+        "price":"$799",
+        "level": "medium",
+        "year": "2018",
+        "color":"white",
+        "rating": "5"
+    },
+    { 
+        "id":"15",
+        "fullname": "ULTRA DISPLAY : MSI Pro 15 Flex-096ULT 15 MULTITOUCH All-In-On...",
+        "price":"$799",
+        "level": "medium", 
+        "year": "2021",
+        "color":"grey",
+        "rating": "4"
+    },
+    { 
+        "id":"16",
+        "fullname": "TLTRAM DISPLAY : MSI Pro 15 Flex-018UL 15 MULTITOUCH All-In-On...",
+        "price":"$699",
+        "level": "medium", 
+        "year": "2019",
+        "color":"grey",
+        "rating": "2"
+    },
+    { 
+        "id":"17",
+        "fullname": "VB DISPLAY : MSI Pro 14 Flex-016BS 14 MULTITOUCH All-In-On...",
+        "price":"$739",
+        "level": "medium",
+        "color":"black",
+        "year": "2018",
+        "rating": "4"
+    },
+    { 
+        "id":"18",
+        "fullname": "SMS DISPLAY : MSI Pro 14 Flex-067JK 14 MULTITOUCH All-In-On...",
+        "price":"$939",
+        "level": "high",
+        "year": "2020",
+        "color":"white",
+        "rating": "5"
+    },
+    { 
+        "id":"19",
+        "fullname": "VB DISPLAY : MSI Pro 14 Flex-098PI 14 MULTITOUCH All-In-On...",
+        "price":"$649",
+        "level": "medium",
+        "year": "2019",
+        "color":"black",
+        "rating": "2"
+    },
+
+    { 
+        "id":"20",
+        "fullname": "KYL DISPLAY : MSI Pro 14 Flex-046TQ 14 MULTITOUCH All-In-On...",
+        "price":"$919",
+        "level": "high",
+        "year": "2022",
+        "color":"grey",
+        "rating": "4"
+    },
+    { 
+        "id":"21",
+        "fullname": "EX DISPLAY : MSI Pro 16 Flex-069AU 15.6 MULTITOUCH All-In-On...",
+        "price":"$499",
+        "level": "low",
+        "year": "2022",
+        "color":"grey",
+        "rating": "4"
+    },
+    { 
+        "id":"22",
+        "fullname": "AX DISPLAY : MSI Pro 16 Flex-077AU 15.6 MULTITOUCH All-In-On...",
+        "price":"$1120",
+        "level": "high",
+        "year": "2021",
+        "color":"black",
+        "rating": "4"
+    },
+    { 
+        "id":"23",
+        "fullname": "BX DISPLAY : MSI Pro 16 Flex-036UA 16.4 MULTITOUCH All-In-On...",
+        "price":"$529",
+        "level": "low",
+        "year": "2022",
+        "color":"grey",
+        "rating": "3"
+    },
+    { 
+        "id":"24",
+        "fullname": "CX DISPLAY : MSI Pro 16 Flex-033UA 16.4 MULTITOUCH All-In-On...",
+        "price":"$1029",
+        "level": "high",
+        "year": "2020",
+        "color":"black",
+        "rating": "3"
+    },
+    { 
+        "id":"25",
+        "fullname": "UL DISPLAY : MSI Pro 14 Flex-039AU 14.0 MULTITOUCH All-In-On...",
+        "price":"$479",
+        "level": "low",
+        "year": "2019",
+        "color":"grey",
+        "rating": "5"
+    }
+
+]
