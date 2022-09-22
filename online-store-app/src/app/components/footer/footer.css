@@ -1,0 +1,54 @@
+.footer { 
+    width: 100%;
+}
+
+.footer-wrap-1 { 
+
+}
+
+
+.footer-wrap-2{ 
+    height: 150px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.sigh-foot > h3 { 
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 132.5%;
+}
+
+.sigh-foot > p { 
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 132.5%;
+}
+
+#email-f { 
+    width: 400px;
+    height: 50px;
+    background-color: #000;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 5px;
+    color: #fff;
+}
+
+.emeil-but{ 
+    width: 150px;
+    height: 50px;
+    background: #01A4FF;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    border-radius: 20px;
+    margin-left: 30px;
+}
