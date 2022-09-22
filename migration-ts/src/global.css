@@ -1,0 +1,143 @@
+
+body {
+    color: #fff;
+    background: #17181c;
+    font-family: sans-serif;
+}
+
+header {
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .copyright {
+    font-size: 16pt;
+    color:#bdae82;
+    text-align: center;
+}
+footer .copyright a {
+    color:#bdae82;
+}
+footer .copyright a:hover {
+    color: #fff;
+    transition: ease-in 1s;
+}
+footer .copyright:before {
+    content: '©';
+}
+.first-foot{ 
+    display: flex;
+
+    color: #fff;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.foot-m{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-m > *{ 
+    padding: 20px;
+    font-size: 16pt;
+
+}
+
+.first-foot{ 
+    
+    display: flex;
+    color: #fff;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.logo-foot{ 
+    padding-right: 20px;
+    color:#bdae82;
+
+
+}
+.year-foot{ 
+    padding-right: 20px;
+    color:#bdae82;
+
+}
+.git-hub{ 
+    font-size: 16pt;
+    text-decoration: none;
+    color:#bdae82;
+
+}
+.git-hub:hover, .link-rs:hover{ 
+    color: #fff;
+    transition: 1s;
+}
+.rsschool{ 
+    color:#bdae82;
+
+}
+.link-rs{
+    color:#bdae82;
+    text-decoration: none;
+    font-size: 16pt;
+}
+@media  screen and (max-width:780px) {
+    .link-rs{
+        font-size: 13pt;
+    }
+    footer .copyright {
+        font-size: 13pt;
+    }
+}
+
+
+
+@media  screen and (max-width:500px) {
+    header{ 
+        padding: 10px 15px;
+    }
+}
+
+
+@media  screen and (max-width:470px) {
+    .foot-m > *{ 
+        font-size: 13pt;
+        padding: 10px;
+    
+    }
+
+    .link-rs{
+        font-size: 12pt;
+    }
+    footer .copyright {
+        font-size: 12pt;
+    }
+}
+
+@media  screen and (max-width:340px) {
+    .foot-m > *{ 
+        font-size: 10pt;
+    
+    }
+
+    .link-rs{
+        font-size: 10pt;
+    }
+    footer .copyright {
+        font-size: 10pt;
+    }
+
+}
