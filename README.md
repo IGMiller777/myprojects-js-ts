@@ -9,6 +9,8 @@ https://igmiller777.github.io/myprojects/project-shelter/pages/main/ \
 https://igmiller777.github.io/myprojects/netflix-clone/ \
 -Cars Market\
 https://igmiller777.github.io/myprojects/cars/ \
+-Online Store\
+https://igmiller777.github.io/myprojects/online-store-app/ \
 -MovieApp\
 https://igmiller777.github.io/myprojects/movieapp/ \
 -Birds Sound\
