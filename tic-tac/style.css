@@ -1,0 +1,158 @@
+body { 
+    background-color: bisque;
+    color: rgb(248, 186, 15);
+}
+td { 
+    border: 3px solid #cf801f;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    cursor: pointer;
+}
+button{ 
+    border: none;
+}
+table{
+    border-collapse: collapse;
+    position: absolute;
+    left: 46%;
+    margin-left: -155px;
+    top: 160px;
+}
+table tr:first-child td{ 
+    border-top: 0;
+}
+table tr:last-child td { 
+    border-bottom:0;
+}
+table tr td:first-child{ 
+    border-left: 0;
+}
+table tr td:last-child{ 
+    border-right: 0;
+}
+.endgame{ 
+    display: none;
+    width: 300px;
+    top: 320px;
+    background-color: #cf801f;
+    position: absolute;
+    left: 47%;
+    margin-left: -100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(138, 13, 13);
+    font-size: 2em;
+}
+.selectSym{ 
+    width: 300px;
+    height: 300px;
+    margin-top: 240px;
+    margin-left: 40%;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: rgb(207, 128, 31);
+    border-radius: 30px;
+    position: absolute;
+
+}
+.select{ 
+    font-size: 24pt;
+    color: rgb(241, 222, 45);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.butx{ 
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    font-size: 20pt;
+}
+.butx:hover, .buto:hover, .replay:hover{ 
+    cursor: pointer;
+    background-color: antiquewhite;
+    color: rgb(248, 186, 15);
+}
+.buto{ 
+    width: 50px;
+    height: 50px;
+    font-size: 20pt;
+
+}
+.replay{ 
+    font-size: 20pt;
+    color: rgb(138, 13, 13);
+    margin-left: 48%;
+    margin-top: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: #cf801f;
+
+}
+
+
+
+
+
+.first-foot{ 
+    margin-top: 80vh;
+    display: flex;
+    /* margin-left: 40%; */
+    align-items: center;
+    width: 97%;
+    position: absolute;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+.logo-foot{
+    font-size: 19pt;
+    color: rgb(138, 13, 13);
+    padding-right: 15px;
+    padding-left: 30px;
+
+
+}
+.git-hub{
+    text-decoration: none;
+    font-size: 19pt;
+    color: rgb(138, 13, 13);
+    font-weight: bold;
+    padding-left: 30px;
+    padding-top: 25px;
+ 
+
+}
+.git-hub:hover{ 
+    color: red;
+}
+.year-foot{
+    font-size: 19pt;
+    color: rgb(138, 13, 13);
+    padding-right: 15px;
+    padding-left: 30px;
+    font-weight: bold;
+
+
+
+
+}
+.foot-m{ 
+    width: 150px;
+    display: flex;
+
+
+}
+.rsschool{
+
+    width: 100%;
+    padding-right: 20px;
+    
+    
+}

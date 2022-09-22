@@ -1,0 +1,185 @@
+.wrapper{ 
+    margin: -10px auto;
+    width: 1200px;
+    height: 1550px;
+    border-radius: 7px;
+}
+.header1 { 
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    min-width: 460px;
+    background: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header_section{ 
+    display: flex;
+    align-items: space-between;
+    color: black;
+}
+.headerlogo{ 
+    font-weight: bold;
+}
+a { 
+    color: rgb(250, 208, 21);
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header_item {
+    padding: 10px;
+    font-size: 20px;
+    color:white;
+}
+.header_item:hover { 
+    background-color: rgb(240, 238, 238);
+    border-radius: 2px;
+}
+.header2 { 
+    display: flex;
+    width: 100%;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content2 { 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 10px;
+}
+.photo{ 
+    background-color:black;
+    width: 38%;
+    padding-left: 30px;
+}
+.info{ 
+    flex-grow: 1;
+    text-align: left;
+    padding-top: 180px;
+    padding-left: 40px;
+    background-color:white;
+}
+.main_side { 
+    display: flex;
+    height: 58%;
+    min-width: 660px;
+    box-sizing: border-box;
+}
+.rightside { 
+    display: flex;
+    background: #000000;
+    height: 100%;
+    width: 42%;
+    flex-direction: column;
+    color: rgb(250, 208, 21);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.rightsection { 
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+    padding-top: 10px;
+}
+.education_head { 
+    padding-left: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.rightcon { 
+    list-style-type: none;
+}
+.uneducation{ 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.uneduc { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.rsed { 
+    padding-left: 30px;
+}
+.leftside { 
+    display: flex;
+    height: 100%;
+    width: 59%;
+    padding-left: 30px;
+    flex-direction: column;
+}
+.contactbl { 
+    display: flex;
+    color: black;
+}
+.leftsection { 
+    display: flex; 
+    flex-direction: column;
+}
+.leftme { 
+    text-align: justify; 
+}
+.blackman { 
+    color: red;
+}
+.footeryear{ 
+    color: rgb(250, 208, 21);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16pt;
+    padding: 15px; 
+}
+.solohead { 
+    padding-left: 30px;
+}
+.unskills { 
+    padding-left: 30px;
+}
+.contact_main { 
+    border: 2px solid black;
+    color: rgb(250, 208, 21);
+    background: black;
+    padding-left: 40px;
+}
+.aboutme_main { 
+    border: 2px solid black;
+    color: rgb(250, 208, 21);
+    padding-left: 40px;
+    background: black;
+}
+.leftlang{ 
+    padding-left: 15px;
+}
+.purplecode { 
+color: purple;
+}
+.bluecode { 
+    color: blue;
+}
+.greencode { 
+    color: green;
+}
+.redcode {
+    color: red;
+}
+.pinkcode { 
+    color: rgb(124, 79, 87);
+}
+.footer { 
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 7.5%;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.footeryear{ 
+    padding-left: 40px;
+} 
+.unfooter { 
+    display: flex;
+    }
+.foterrsschool { 
+    padding-top: 30px;
+}
+.footer_git1 { 
+    padding-top: 30px;
+    padding-right: 20px;
+    
+}
