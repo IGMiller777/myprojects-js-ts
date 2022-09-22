@@ -11,6 +11,8 @@ https://igmiller777.github.io/myprojects/netflix-clone/ \
 https://igmiller777.github.io/myprojects/cars/ \
 -Online Store\
 https://igmiller777.github.io/myprojects/online-store-app/ \
+-News API (TS) \
+https://igmiller777.github.io/myprojects/migration-ts/ \
 -MovieApp\
 https://igmiller777.github.io/myprojects/movieapp/ \
 -Birds Sound\
